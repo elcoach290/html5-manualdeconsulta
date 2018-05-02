@@ -1,5 +1,8 @@
 # Manual del Guerrero HTML5
-## Estructura bàsica de todo documento HTML5
+## Términos Básicos
+- **Sitio Web** conjunto de páginas web interconectadas con un proposito determinado, ejemplo: Sitio Web de Nike, Sitio Web del Poder Judicial, etc.
+- **Pagina Web** documento digital que permite estructurar informacion ( textos, hipertextos ) y contenido multimedia ( video, audio, imagenes, etc )
+## Estructura básica de todo documento HTML5
 ```html
 <!doctype html>
 <html>
