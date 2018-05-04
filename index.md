@@ -18,7 +18,7 @@
 		- [Tablas](#Tablas)
 		- [Otras etiquetas](#Otras_etiquetas)
 	- [Agrupadores Semánticos](#Agrupadores_semanticos)
-	- [El elemento agrupador DIV](#El_elemento agrupador DIV)
+	- [El elemento agrupador DIV](#El_elemento_agrupador_DIV)
 	- [Elementos Multimedia](#Elementos_multimedia)
 	- [Elementos de formulario](#Elementos_de_formulario)
 
