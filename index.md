@@ -7,14 +7,20 @@
 	- Pagina Web
 	- Dominio
 	- Hosting
-- [Estructura básica de todo documento HTML5](#Estructura_basica_de_todo_documento_HTML5_9)
+- [Hyper Text Markup Language](#Hyper_Text_Markup_Language)	
+	- [Estructura básica de todo documento HTML5](#Estructura_basica_de_todo_documento_HTML5_9)
+	- [Elementos básicos para estructurar contenido](#Elementos_basicos)
 - [Estilos CSS](#Estilos_CSS)
+
 ## Conceptos Basicos
 - **Sitio Web** conjunto de páginas web interconectadas con un proposito determinado, ejemplo: Sitio Web de Nike, Sitio Web del Poder Judicial, etc.
 - **Pagina Web** documento digital que permite estructurar informacion ( textos, hipertextos ) y contenido multimedia ( video, audio, imagenes, etc )
 - **Dominio** es la url o direccion principal en internet donde se encuentra un sitio web.
-- **Hosting** espacio en un servidor web para guardar los archivos de un sitio web, normalmente vinculado a un **dominio**. 
-## Estructura basica de todo documento HTML5
+- **Hosting** espacio en un servidor web para guardar los archivos de un sitio web, normalmente vinculado a un **dominio**.
+
+## Hyper Text Markup Language
+El Hyper Text Markup Language ( HTML ) es un lenguaje de marcado o etiquetado que sirve para estructurar la información dentro de una página web, mediante las etiquetas vamos a poder indicar  si un texto es un título o un párrafo, si deseamos tener un listado de cierta información también se tiene una etiqueta para este fin.
+### Estructura basica de todo documento HTML5
 ```html
 <!doctype html>
 <html>
