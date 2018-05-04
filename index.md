@@ -37,6 +37,8 @@
 	- [Modelo de Caja](#Modelo_de_caja)
 	- [Propiedades Flexbox](#Propiedades_flexbox)
 	- [Imagenes de fondo](#Imagenes_de_fondo)
+	- [Transiciones](#Transiciones)
+	- [Animaciones](#Animaciones)
 
 ## Conceptos Basicos
 
