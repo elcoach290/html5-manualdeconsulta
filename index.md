@@ -1,9 +1,15 @@
 # Manual del Guerrero HTML5
 ## Indice
-- [Terminos Basicos](#Terminos_Basicos_4)
+- [Conceptos Basicos](#Conceptos_Basicos_4)
+	- Carpeta
+	- Archivo
+	- Sitio Web
+	- Pagina Web
+	- Dominio
+	- Hosting
 - [Estructura básica de todo documento HTML5](#Estructura_basica_de_todo_documento_HTML5_9)
 - [Estilos CSS](#Estilos_CSS)
-## Terminos Basicos
+## Conceptos Basicos
 - **Sitio Web** conjunto de páginas web interconectadas con un proposito determinado, ejemplo: Sitio Web de Nike, Sitio Web del Poder Judicial, etc.
 - **Pagina Web** documento digital que permite estructurar informacion ( textos, hipertextos ) y contenido multimedia ( video, audio, imagenes, etc )
 - **Dominio** es la url o direccion principal en internet donde se encuentra un sitio web.
