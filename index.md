@@ -113,7 +113,7 @@ Requieren de dos atributos, **src** para indicar la ubicacion de la imagen y **a
 
 ## Listas
 Las lista se utilizan cuando requieres mostras una secuencia de datos o elementos, pueden ser ordenadas o desordenadas.
-## Listas ordenadas
+### Listas ordenadas
 En ellas importa el orden de los elementos podrian ser los pasos para realizar un tramite.
 ```html
 <ul>
@@ -123,7 +123,7 @@ En ellas importa el orden de los elementos podrian ser los pasos para realizar u
 </ul>
 ```
 
-## Listas no ordenadas
+### Listas no ordenadas
 En ellas no es relevante el orden de los elementos y se pueden tener otras etiquetas incluso, como en el caso de un listado de enlaces:
 
 ```html
