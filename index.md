@@ -94,7 +94,7 @@ Cuando necesitamos escribir parrafos el texto lo colocamos dentro de la etiqueta
 ## Enlaces
 Los enlaces son los que nos van a permitir conectar las paginas de nuestro sitio o conectarlas con otras paginas externas, tambien podemos colocar como destinos de los enlaces imagenes o documentos como pdfs.
 ```html
-<!-- enlace a una pagina home del sitio -->
+<!-- enlace a la pagina home del sitio -->
 <a href="index.html">Ir al Home</a>
 <!-- enlace para visualizar un archivo pdf -->
 <a href="curriculum.pdf">Ver curriculum</a>
@@ -105,7 +105,35 @@ Los enlaces son los que nos van a permitir conectar las paginas de nuestro sitio
 ```
 
 ## Imagenes
+Podemos vincular imagenes en nuestras paginas web para que se puedan visualizar al momento de visualizarse de la siguiente manera:
+```html
+<img src="images/foto.jpg" alt="Foto de Perfil">
+```
+Requieren de dos atributos, **src** para indicar la ubicacion de la imagen y **alt** que es para indicar un texto alternativo en casos la imagen por algun motivo no se haya descargado, tambien sirve para la accesibilidad, muy importante para los usuarios invidentes.
+
 ## Listas
+Las lista se utilizan cuando requieres mostras una secuencia de datos o elementos, pueden ser ordenadas o desordenadas.
+## Listas ordenadas
+En ellas importa el orden de los elementos podrian ser los pasos para realizar un tramite.
+```html
+<ul>
+	<li>Acudir al Banco de la Nación, pedir el concepto 1810 y pagar S/ 98.50 por el pasaporte biométrico.</li>
+	<li>Ingresar a www.migraciones.gob.pe, llenar el formulario y separar una cita.</li>
+	<li>El pasaporte será entregado en las 14 sedes de Migraciones. Debe llevar su voucher y DNI, no es necesario una foto.</li>
+</ul>
+```
+
+## Listas no ordenadas
+En ellas no es relevante el orden de los elementos y se pueden tener otras etiquetas incluso, como en el caso de un listado de enlaces:
+
+```html
+<ul>
+	<li><a href="index.html">Inicio</a></li>
+	<li><a href="servicios.html">Servicios</a></li>
+	<li><a href="contacto.html">Contacto</a></li>
+</ul>
+```
+
 ## Tablas
 ## Otras etiquetas
 
