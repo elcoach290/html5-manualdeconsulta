@@ -42,6 +42,12 @@
 
 ## Conceptos Basicos
 
+### Carpeta
+Contenedor de archivos que sirve para poder mantenerlos organizados, se recomienda nombrarlos en minusculas y sin espacios en blanco, como ejemplos de nombres de carpetas tenemos: images, videos, css, etc.
+
+### Archivo
+Conjunto de informacion digital que puede almacenarse en una computadora, existen diferentes tipos de archivos como las imagenes, videos, audios, texto, etc, y van a requerir una extension que los identifique, como ejemplos tenemos: intro.mp4, musica.mp3, banner.jpg, etc.
+
 ### Sitio Web
 Conjunto de páginas web interconectadas con un proposito determinado, ejemplo: Sitio Web de Nike, Sitio Web del Poder Judicial, etc.
 
@@ -77,6 +83,35 @@ Son los encabezados o titulos que usaremos en nuestro documento existen del **h1
 ...
 <h6>El titulo menos importante</h6>
 ```
+
+## Parrafos
+Cuando necesitamos escribir parrafos el texto lo colocamos dentro de la etiquetas `<p></p>`
+```html
+<p>Todo lo que necesitas para lograr tus objetivos ya está en ti.</p>
+<p>No vas a dominar el resto de tu vida en un día. Relájate. Domina el día. Entonces sigue haciendo eso todos los días.</p>
+```
+
+## Enlaces
+Los enlaces son los que nos van a permitir conectar las paginas de nuestro sitio o conectarlas con otras paginas externas, tambien podemos colocar como destinos de los enlaces imagenes o documentos como pdfs.
+```html
+<!-- enlace a una pagina home del sitio -->
+<a href="index.html">Ir al Home</a>
+<!-- enlace para visualizar un archivo pdf -->
+<a href="curriculum.pdf">Ver curriculum</a>
+<!-- enlace para visualizar una imagen -->
+<a href="images/fotogrande.jpg">Ver foto</a>
+<!-- enlace para ir dirigirnos a otro sitio -->
+<a href="http://www.google.com">Ir a Google</a>
+```
+
+## Imagenes
+## Listas
+## Tablas
+## Otras etiquetas
+
+
+
+
 ** Tip: **
 ## Agrupadores semanticos
 ### Header
