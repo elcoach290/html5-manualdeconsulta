@@ -67,12 +67,12 @@ El Hyper Text Markup Language ( HTML ) es un lenguaje de marcado o etiquetado qu
 ```html
 <!doctype html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Título de la Pestaña</title>
-    </head>
-    <body>
-    </body>
+	<head>
+		<meta charset="UTF-8">
+		<title>Título de la Pestaña</title>
+	</head>
+	<body>
+	</body>
 </html>
 ```
 ## Headings
