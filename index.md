@@ -135,6 +135,40 @@ En ellas no es relevante el orden de los elementos y se pueden tener otras etiqu
 ```
 
 ## Tablas
+Es para mostras datos tabulares o datos extraido mediante alguna consulta a una base de datos, pudiendo ser estos registros, por ejemplo datos de los usuarios.
+
+```html
+<table>
+	<thead>
+		<tr>
+			<td>Codigo</td>
+			<td>Nombre</td>
+			<td>Area</td>
+			<td>Cargo</td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>201801</td>
+			<td>Manuel Donayre</td>
+			<td>Recursos Humanos</td>
+			<td>Jefe de Area</td>	
+		</tr>
+		<tr>
+			<td>201801</td>
+			<td>Jordy Leomine</td>
+			<td>Sistemas</td>
+			<td>Jefe de Area</td>	
+		</tr>
+		<tr>
+			<td>201801</td>
+			<td>Marcos Llunas</td>	
+			<td>Comedor</td>
+			<td>Cocinero principal</td>
+		</tr>
+	</tbody>
+</table>
+```
 ## Otras etiquetas
 
 
