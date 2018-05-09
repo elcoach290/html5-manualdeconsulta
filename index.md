@@ -19,8 +19,8 @@
 		- [Tablas](#Tablas)
 		- [Otras etiquetas](#Otras_etiquetas)
 	- [Agrupadores Semánticos](#Agrupadores_semanticos)
-		- [Header](#Header)
 		- [Nav](#Nav)
+		- [Header](#Header)
 		- [Main](#Main)
 		- [Footer](#Footer)
 		- [Article](#Article)
@@ -189,7 +189,7 @@ Sirve para citar a un texto de un tercero, que no es de nuestra propia autoría.
 
 ```html
 <blockquote>
-<p>La genialidad es 1% de inspiración y 99% de transpiración</p>
+	<p>La genialidad es 1% de inspiración y 99% de transpiración</p>
 </blockquote>
 ```
 
@@ -197,14 +197,13 @@ Para indicar el nombre del autor se puede usar la etiqueta `<cite></cite>`y si s
 
 ```html
 <blockquote cite="http://www.thomasalva.com">
-<p>La genialidad es 1% de inspiración y 99% de transpiración</p>
-<cite>Thomas Alva Edison</cite>
+	<p>La genialidad es 1% de inspiración y 99% de transpiración</p>
+	<cite>Thomas Alva Edison</cite>
 </blockquote>
 ```
 
 ## Agrupadores semanticos
-### Header
-Para envolver a los elementos de la cabecera de una pagina web o seccion, pudiendo ser estos el `<h1></h1>` y el `<nav></nav>`.
+
 ### Nav
 Para envolver a la lista de enlaces de navegacion de un sitio web.
 ```html
@@ -217,4 +216,42 @@ Para envolver a la lista de enlaces de navegacion de un sitio web.
     </ul>
 </nav>
 ```
+
+### Header
+Para envolver a los elementos de la cabecera de una pagina web o seccion, pudiendo ser estos el `<h1></h1>` y el `<nav></nav>`.
+
+```html
+<header>
+	<h1><a href="index.html"><img src="images/logo.svg" alt="Gatotel"></a></h1>
+	<nav>
+		<ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Habitaciones</a></li>
+        <li><a href="#">Reservaciones</a></li>
+    </ul>
+	</nav>
+</header>
+```
+
+
+### Main
+Dentro del elemento **main** irá todo el contenido principal de la página web.
+```html
+<main>
+	<!-- dentro de main irá  el contenido principal-->
+	<h2>Bienvenidos</h2>
+	<p>Este es un mensaje de bienvenida</p>
+	...
+</main>
+```
+### Footer
+
+### Article
+
+### Section
+
+### Figure
+
+
 ## Estilos CSS
