@@ -171,10 +171,37 @@ Es para mostras datos tabulares o datos extraido mediante alguna consulta a una 
 ```
 ## Otras etiquetas
 
+### Strong
+Nos sirve para indicar que un texto o palabra es importante:
+```html
+<p>El personaje de Tony Stark es caracterizado por el actor <strong>Robert Downey Jr.</strong></p>
+```
 
+### Span
+Esta etiqueta sirve para poder cambiar el formato a una palabra a caracter sin que esto afecte su significado, el cambio recien se hace visible aplicando estilos css
 
+```html
+<h2><span>Gatotel</span>, un lugar para quedarse.</h2>
+```
 
-** Tip: **
+### Blockquote
+Sirve para citar a un texto de un tercero, que no es de nuestra propia autoría.
+
+```html
+<blockquote>
+<p>La genialidad es 1% de inspiración y 99% de transpiración</p>
+</blockquote>
+```
+
+Para indicar el nombre del autor se puede usar la etiqueta `<cite></cite>`y si se quiere indicar la url de la fuente se puede usar el atribute cite de esta forrma:
+
+```html
+<blockquote cite="http://www.thomasalva.com">
+<p>La genialidad es 1% de inspiración y 99% de transpiración</p>
+<cite>Thomas Alva Edison</cite>
+</blockquote>
+```
+
 ## Agrupadores semanticos
 ### Header
 Para envolver a los elementos de la cabecera de una pagina web o seccion, pudiendo ser estos el `<h1></h1>` y el `<nav></nav>`.
