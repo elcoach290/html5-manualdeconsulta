@@ -225,11 +225,11 @@ Para envolver a los elementos de la cabecera de una pagina web o seccion, pudien
 	<h1><a href="index.html"><img src="images/logo.svg" alt="Gatotel"></a></h1>
 	<nav>
 		<ul>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Servicios</a></li>
-        <li><a href="#">Habitaciones</a></li>
-        <li><a href="#">Reservaciones</a></li>
-    </ul>
+			<li><a href="#">Inicio</a></li>
+			<li><a href="#">Servicios</a></li>
+			<li><a href="#">Habitaciones</a></li>
+			<li><a href="#">Reservaciones</a></li>
+		</ul>
 	</nav>
 </header>
 ```
@@ -246,6 +246,12 @@ Dentro del elemento **main** irá todo el contenido principal de la página web.
 </main>
 ```
 ### Footer
+Representa al pie de la página o sección, normalmente van datos de contacto, enlaces a otras paginas de navegacion o enlaces a las redes sociales.
+```html
+<footer>
+	<p>Copyright 2018 - Diseño y Desarrollo por <a href="http://www.anthonystudio.com">anthonystudio.com</a></p>
+</footer>
+```
 
 ### Article
 
