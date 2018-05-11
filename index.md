@@ -254,10 +254,38 @@ Representa al pie de la página o sección, normalmente van datos de contacto, e
 ```
 
 ### Article
+Se usa envolver a una composición de elementos con datos que hacen referencia a una idea o información autonónoma. Un uso común puede ser como entrada de blog, noticia de periódico, ficha técnica de algún producto, etc. Debe tener como mínimo un título y párrafos. 
+```html
+<article>
+	<h2>Perú en alerta epidemiológica</h2>
+	<p>En dos semanas hay más de 30 afectados confirmados, cuatro de ellos en Lima ...</p>
+	<img src="images/foto.jpg" alt="Afectados por el virus">
+</article>	
+```
 
 ### Section
+Se usa para envolver información que habla sobre un tema en particular o un area de información dentro del documento, podría usarse para envolver a un conjunto de **articles**, normalmente llevan un título.
 
+```html
+<section>
+	<h2>Blog</h2>
+	<article>
+		...
+	</article>
+	<article>
+		...
+	</article>
+	...
+</section>
+```
 ### Figure
+Se usa para envolver imágenes, gráficos o fragmentos de código, pueden incluir la etiqueta `<figcaption></figcaption>`para añadirle un título o descripción. Al incluir las imagenes dentro de un elemento este la hace reubicable e independiente pudiendo localizarse en cualquier parte de la página sin afectar el esquema del documento.
 
+```html
+<figure>
+	<img src="images/foto.jpg" alt="Afectados por el virus">
+	<figcaption>Afectados por el síndrome Guillaín Barré</figcaption>
+</figure>
+```
 
 ## Estilos CSS
