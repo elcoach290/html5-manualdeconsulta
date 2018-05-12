@@ -2,11 +2,45 @@
 
 ## Indice
 
-* [Conceptos Basicos](#Conceptos_Basicos_4) - [Carpeta](#Carpeta) - [Archivo](#Archivo) - [Sitio Web](#Sitio_Web) - [Pagina Web](#Pagina_Web) - [Dominio](#Dominio) - [Hosting](#Hosting)
+* [Conceptos Basicos](#Conceptos_Basicos_4)
+  _ [Carpeta](#Carpeta)
+  _ [Archivo](#Archivo)
+  _ [Sitio Web](#Sitio_Web)
+  _ [Pagina Web](#Pagina_Web)
+  _ [Dominio](#Dominio)
+  _ [Hosting](#Hosting)
 
-* [Hyper Text Markup Language](#Hyper_Text_Markup_Language) - [Estructura básica de todo documento HTML5](#Estructura_basica_de_todo_documento_HTML5_9) - [Elementos básicos](#Elementos_basicos) - [Titulares](#Titulares) - [Parrafos](#Parrafos) - [Enlaces](#Enlaces) - [Imagenes](#Imagenes) - [Listas](#Listas) - [Tablas](#Tablas) - [Otras etiquetas](#Otras_etiquetas) - [Agrupadores Semánticos](#Agrupadores_semanticos) - [Nav](#Nav) - [Header](#Header) - [Main](#Main) - [Footer](#Footer) - [Article](#Article) - [Section](#Section) - [Figure](#Figure) - [El elemento agrupador DIV](#El_elemento_agrupador_DIV) - [Elementos Multimedia](#Elementos_multimedia) - [Elementos de formulario](#Elementos_de_formulario)
+* [Hyper Text Markup Language](#Hyper_Text_Markup_Language)
+  _ [Estructura básica de todo documento HTML5](#Estructura_basica_de_todo_documento_HTML5_9)
+  _ [Elementos básicos](#Elementos_basicos)
+  _ [Titulares](#Titulares)
+  _ [Parrafos](#Parrafos)
+  _ [Enlaces](#Enlaces)
+  _ [Imagenes](#Imagenes)
+  _ [Listas](#Listas)
+  _ [Tablas](#Tablas)
+  _ [Otras etiquetas](#Otras_etiquetas)
+  _ [Agrupadores Semánticos](#Agrupadores_semanticos)
+  _ [Nav](#Nav)
+  _ [Header](#Header)
+  _ [Main](#Main)
+  _ [Footer](#Footer)
+  _ [Article](#Article)
+  _ [Section](#Section)
+  _ [Figure](#Figure)
+  _ [El elemento agrupador DIV](#El_elemento_agrupador_DIV)
+  _ [Elementos Multimedia](#Elementos_multimedia)
+  _ [Elementos de formulario](#Elementos_de_formulario)
 
-* [Estilos CSS](#Estilos_CSS) - [Colores](#Colores) - [Estilos de Texto](#Propiedades_de_texto) - [Estilos de lista](#Estilos_de_lista) - [Modelo de Caja](#Modelo_de_caja) - [Propiedades Flexbox](#Propiedades_flexbox) - [Imagenes de fondo](#Imagenes_de_fondo) - [Transiciones](#Transiciones) - [Animaciones](#Animaciones)
+* [Estilos CSS](#Estilos_CSS)
+  _ [Colores](#Colores)
+  _ [Estilos de Texto](#Propiedades_de_texto)
+  _ [Estilos de lista](#Estilos_de_lista)
+  _ [Modelo de Caja](#Modelo_de_caja)
+  _ [Propiedades Flexbox](#Propiedades_flexbox)
+  _ [Imagenes de fondo](#Imagenes_de_fondo)
+  _ [Transiciones](#Transiciones)
+  _ [Animaciones](#Animaciones)
 
 ## Conceptos Basicos
 
