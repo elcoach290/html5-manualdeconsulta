@@ -1,5 +1,7 @@
 # Manual del Guerrero HTML5
+
 ## Indice
+
 - [Conceptos Basicos](#Conceptos_Basicos_4)
 	- [Carpeta](#Carpeta)
 	- [Archivo](#Archivo)
@@ -43,30 +45,37 @@
 ## Conceptos Basicos
 
 ### Carpeta
+
 Contenedor de archivos que sirve para poder mantenerlos organizados, se recomienda nombrarlos en minusculas y sin espacios en blanco, como ejemplos de nombres de carpetas tenemos: images, videos, css, etc.
 
 ### Archivo
+
 Conjunto de informacion digital que puede almacenarse en una computadora, existen diferentes tipos de archivos como las imagenes, videos, audios, texto, etc, y van a requerir una extension que los identifique, como ejemplos tenemos: intro.mp4, musica.mp3, banner.jpg, etc.
 
 ### Sitio Web
+
 Conjunto de páginas web interconectadas con un proposito determinado, ejemplo: Sitio Web de Nike, Sitio Web del Poder Judicial, etc.
 
 ### Pagina Web
+
 Documento digital que permite estructurar informacion ( textos, hipertextos ) y contenido multimedia ( video, audio, imagenes, etc )
 
 ### Dominio
+
 Es la url o direccion principal en internet donde se encuentra un sitio web.
+
 ###Hosting
 Espacio en un servidor web para guardar los archivos de un sitio web, normalmente vinculado a un **dominio**.
 
 ## Hyper Text Markup Language
 
-El Hyper Text Markup Language ( HTML ) es un lenguaje de marcado o etiquetado que sirve para estructurar la información dentro de una página web, mediante las etiquetas vamos a poder indicar  si un texto es un título o un párrafo, si deseamos tener un listado de cierta información también se tiene una etiqueta para este fin.
+El Hyper Text Markup Language ( HTML ) es un lenguaje de marcado o etiquetado que sirve para estructurar la información dentro de una página web, mediante las etiquetas vamos a poder indicar si un texto es un título o un párrafo, si deseamos tener un listado de cierta información también se tiene una etiqueta para este fin.
 
 ### Estructura basica de todo documento HTML5
+
 ```html
 <!doctype html>
-<html>
+<html lang="es">
 	<head>
 		<meta charset="UTF-8">
 		<title>Título de la Pestaña</title>
@@ -75,8 +84,11 @@ El Hyper Text Markup Language ( HTML ) es un lenguaje de marcado o etiquetado qu
 	</body>
 </html>
 ```
+
 ## Headings
+
 Son los encabezados o titulos que usaremos en nuestro documento existen del **h1** al **h6**, siendo el mas importante el **h1** y asi va bajando hasta el **h6** que es el menor importante.
+
 ```html
 <h1>El titulo mas importante del documento</h1>
 <h2>El titulo de un segundo nivel de importancia </h2>
@@ -85,17 +97,25 @@ Son los encabezados o titulos que usaremos en nuestro documento existen del **h1
 ```
 
 ## Parrafos
+
 Cuando necesitamos escribir parrafos el texto lo colocamos dentro de la etiquetas `<p></p>`
+
 ```html
 <p>Todo lo que necesitas para lograr tus objetivos ya está en ti.</p>
 <p>No vas a dominar el resto de tu vida en un día. Relájate. Domina el día. Entonces sigue haciendo eso todos los días.</p>
 ```
 
 ## Enlaces
+
 Los enlaces son los que nos van a permitir conectar las paginas de nuestro sitio o conectarlas con otras paginas externas, tambien podemos colocar como destinos de los enlaces imagenes o documentos como pdfs.
+
 ```html
 <!-- enlace a la pagina home del sitio -->
 <a href="index.html">Ir al Home</a>
+<!-- enlace a un id específico dentro de una web -->
+<a href="#id-a-visitar">Ir a sección</a> <!-- en la página actual -->
+<a href="seccion/#id-a-visitar">Ir a sección</a> <!-- en otra página de la misma web -->
+<a href="http://webdeotracosa.com/seccion/#id-a-visitar">Ir a sección</a> <!-- en otra página de internet -->
 <!-- enlace para visualizar un archivo pdf -->
 <a href="curriculum.pdf">Ver curriculum</a>
 <!-- enlace para visualizar una imagen -->
@@ -105,25 +125,33 @@ Los enlaces son los que nos van a permitir conectar las paginas de nuestro sitio
 ```
 
 ## Imagenes
-Podemos vincular imagenes en nuestras paginas web para que se puedan visualizar al momento de visualizarse de la siguiente manera:
+
+Podemos vincular imagenes de distintos tipos en nuestras paginas web para que se puedan visualizar al momento de visualizarse de la siguiente manera:
+
 ```html
 <img src="images/foto.jpg" alt="Foto de Perfil">
 ```
-Requieren de dos atributos, **src** para indicar la ubicacion de la imagen y **alt** que es para indicar un texto alternativo en casos la imagen por algun motivo no se haya descargado, tambien sirve para la accesibilidad, muy importante para los usuarios invidentes.
+
+Requieren de dos atributos, **src** para indicar la ubicacion de la imagen y **alt** que es para indicar un texto alternativo en casos la imagen por algun motivo no se haya descargado, tambien sirve para la accesibilidad, muy importante para los usuarios invidentes. Recordemos que podemos cargar muchos formatos de imagen, como son JPG, PNG y GIF
 
 ## Listas
+
 Las lista se utilizan cuando requieres mostras una secuencia de datos o elementos, pueden ser ordenadas o desordenadas.
+
 ### Listas ordenadas
+
 En ellas importa el orden de los elementos podrian ser los pasos para realizar un tramite.
+
 ```html
-<ul>
+<ol>
 	<li>Acudir al Banco de la Nación, pedir el concepto 1810 y pagar S/ 98.50 por el pasaporte biométrico.</li>
 	<li>Ingresar a www.migraciones.gob.pe, llenar el formulario y separar una cita.</li>
 	<li>El pasaporte será entregado en las 14 sedes de Migraciones. Debe llevar su voucher y DNI, no es necesario una foto.</li>
-</ul>
+</ol>
 ```
 
 ### Listas no ordenadas
+
 En ellas no es relevante el orden de los elementos y se pueden tener otras etiquetas incluso, como en el caso de un listado de enlaces:
 
 ```html
@@ -135,6 +163,7 @@ En ellas no es relevante el orden de los elementos y se pueden tener otras etiqu
 ```
 
 ## Tablas
+
 Es para mostras datos tabulares o datos extraido mediante alguna consulta a una base de datos, pudiendo ser estos registros, por ejemplo datos de los usuarios.
 
 ```html
@@ -152,32 +181,36 @@ Es para mostras datos tabulares o datos extraido mediante alguna consulta a una 
 			<td>201801</td>
 			<td>Manuel Donayre</td>
 			<td>Recursos Humanos</td>
-			<td>Jefe de Area</td>	
+			<td>Jefe de Area</td>
 		</tr>
 		<tr>
 			<td>201801</td>
 			<td>Jordy Leomine</td>
 			<td>Sistemas</td>
-			<td>Jefe de Area</td>	
+			<td>Jefe de Area</td>
 		</tr>
 		<tr>
 			<td>201801</td>
-			<td>Marcos Llunas</td>	
+			<td>Marcos Llunas</td>
 			<td>Comedor</td>
 			<td>Cocinero principal</td>
 		</tr>
 	</tbody>
 </table>
 ```
+
 ## Otras etiquetas
 
 ### Strong
+
 Nos sirve para indicar que un texto o palabra es importante:
+
 ```html
 <p>El personaje de Tony Stark es caracterizado por el actor <strong>Robert Downey Jr.</strong></p>
 ```
 
 ### Span
+
 Esta etiqueta sirve para poder cambiar el formato a una palabra a caracter sin que esto afecte su significado, el cambio recien se hace visible aplicando estilos css
 
 ```html
@@ -185,7 +218,8 @@ Esta etiqueta sirve para poder cambiar el formato a una palabra a caracter sin q
 ```
 
 ### Blockquote
-Sirve para citar a un texto de un tercero, que no es de nuestra propia autoría.
+
+Sirve para citar a un texto de un tercero , que no es de nuestra propia autoría.
 
 ```html
 <blockquote>
@@ -204,8 +238,13 @@ Para indicar el nombre del autor se puede usar la etiqueta `<cite></cite>`y si s
 
 ## Agrupadores semanticos
 
+Estos elementos propios de HTML5 ayudan a los navegadores y crawlers a entender el significado e intención de las partes del código de una web.
+Podemos no utilizarlos, pero hacerlo ayuda a que nuestra página sea entendida con mayor facilidad.
+
 ### Nav
+
 Para envolver a la lista de enlaces de navegacion de un sitio web.
+
 ```html
 <nav>
     <ul>
@@ -218,6 +257,7 @@ Para envolver a la lista de enlaces de navegacion de un sitio web.
 ```
 
 ### Header
+
 Para envolver a los elementos de la cabecera de una pagina web o seccion, pudiendo ser estos el `<h1></h1>` y el `<nav></nav>`.
 
 ```html
@@ -234,9 +274,10 @@ Para envolver a los elementos de la cabecera de una pagina web o seccion, pudien
 </header>
 ```
 
-
 ### Main
-Dentro del elemento **main** irá todo el contenido principal de la página web.
+
+Dentro del elemento **main** irá todo el contenido principal de la página web. Solo puede haber una etiqueta **main** por página.
+
 ```html
 <main>
 	<!-- dentro de main irá  el contenido principal-->
@@ -245,8 +286,11 @@ Dentro del elemento **main** irá todo el contenido principal de la página web.
 	...
 </main>
 ```
+
 ### Footer
+
 Representa al pie de la página o sección, normalmente van datos de contacto, enlaces a otras paginas de navegacion o enlaces a las redes sociales.
+
 ```html
 <footer>
 	<p>Copyright 2018 - Diseño y Desarrollo por <a href="http://www.anthonystudio.com">anthonystudio.com</a></p>
@@ -254,17 +298,20 @@ Representa al pie de la página o sección, normalmente van datos de contacto, e
 ```
 
 ### Article
-Se usa envolver a una composición de elementos con datos que hacen referencia a una idea o información autonónoma. Un uso común puede ser como entrada de blog, noticia de periódico, ficha técnica de algún producto, etc. Debe tener como mínimo un título y párrafos. 
+
+Se usa envolver a una composición de elementos con datos que hacen referencia a una idea o información autonónoma. Un uso común puede ser como entrada de blog, noticia de periódico, ficha técnica de algún producto, etc. Debe tener como mínimo un título y párrafos.
+
 ```html
 <article>
 	<h2>Perú en alerta epidemiológica</h2>
 	<p>En dos semanas hay más de 30 afectados confirmados, cuatro de ellos en Lima ...</p>
 	<img src="images/foto.jpg" alt="Afectados por el virus">
-</article>	
+</article>
 ```
 
 ### Section
-Se usa para envolver información que habla sobre un tema en particular o un area de información dentro del documento, podría usarse para envolver a un conjunto de **articles**, normalmente llevan un título.
+
+Se usa para envolver información que habla sobre un tema en particular o un area de información dentro del documento, podría usarse para envolver a un conjunto de **articles**, debe llevar un título.
 
 ```html
 <section>
@@ -278,7 +325,9 @@ Se usa para envolver información que habla sobre un tema en particular o un are
 	...
 </section>
 ```
+
 ### Figure
+
 Se usa para envolver imágenes, gráficos o fragmentos de código, pueden incluir la etiqueta `<figcaption></figcaption>`para añadirle un título o descripción. Al incluir las imagenes dentro de un elemento este la hace reubicable e independiente pudiendo localizarse en cualquier parte de la página sin afectar el esquema del documento.
 
 ```html
