@@ -336,5 +336,44 @@ Se usa para envolver imágenes, gráficos o fragmentos de código, pueden inclui
 	<figcaption>Afectados por el síndrome Guillaín Barré</figcaption>
 </figure>
 ```
+## El elemento agrupador DIV
+
+Se usa para agrupar otros elementos con fines de adaptar la disposición de estos al diseño de la interfaz, no aporta semántica 
+
+```html
+<article>
+	<h2>Juntos como hermanos</h2>
+	<div>
+		<p>Juntos como hermanos <br>
+		Miembros de una iglesia <br>
+		Vamos caminando <br>
+		Al encuentro del señor </p>
+		
+		<p>Un largo caminar <br>
+		Por el desierto bajo el sol <br>
+		No podemos avanzar <br>
+		Sin la ayuda del señor</p>
+	</div>
+	<div>
+		<img src="images/hermanos.jpg" alt="Juntos como hermanos">
+	</div>
+</article>
+```
+
+## Elementos Multimedia
+
+### Video
+
+### Audio
+
+## Elementos de formulario
+
+### Form
+
+### Label
+
+### Input
+
+### Button
 
 ## Estilos CSS
