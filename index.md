@@ -361,10 +361,22 @@ Se usa para agrupar otros elementos con fines de adaptar la disposición de esto
 ```
 
 ## Elementos Multimedia
+Con HTML5 ahora podemos incluir videos y audio ya que antes solo era posible hacerlo usando plugins adicionales como el conocido flash player que ahora solo es parte de la historia del desarrollo web.
 
 ### Video
+De esta forma podríamos incluir un video dentro de nuestro sitio web
+```html
+<video src="videos/intro.mp4" controls></video>
+```
+
+El atributo src es para indicar la ubicación del video mientras el atributo controls permite mostrar los controles de reproducción, otros atributos opcionales son: poster, preload, height, autoplay, muted.
 
 ### Audio
+De esta forma podríamos incluir un audio o sonido dentro de nuestro sitio web
+```html
+<video src="audios/sound.mp4" controls></video>
+```
+El atributo src es para indicar la ubicación del archivo de audio mientras el atributo controls permite mostrar los controles de reproducción, si se desea iniciar automaticamente se le puede añadir el atributo autoplay.
 
 ## Elementos de formulario
 
