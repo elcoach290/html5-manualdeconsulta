@@ -430,8 +430,13 @@ Este elemento nos va servir básicamente para poder envíar el formulario aunque
 
 ```html
 <button type="submit">Enviar</button>
-``` 
+```
 
+**TIP:** A los campos de entrada podemos añadirle un atributo **_required_** que los convierte en campos obligatorios, y también un atributo **_placeholder_** con el valor que desees se muestre dentro del campo cuando no se ha ingresado nada aún, a modo de pista de como se podría llenar.
+
+```html
+<input type="email" placeholder="anthony@prodesigner.com" required>
+``` 
 
 
 ## Estilos CSS
