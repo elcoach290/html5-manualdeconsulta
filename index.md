@@ -392,6 +392,7 @@ Este el elemento es el que va envolvera o agrupar todos los campos del formulari
 <form action="process.php" method="POST">
 	...
 </form>
+```
 
 Por lo general tienen un atributo action que hace referencia al archivo que se va encargar de procesar los datos ingresados y el atributo method que es indica la forma en que se va enviar para caso de formularios de contacto sería el valor **POST**
 
