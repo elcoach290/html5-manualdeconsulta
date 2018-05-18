@@ -64,7 +64,7 @@ Documento digital que permite estructurar informacion ( textos, hipertextos ) y 
 
 Es la url o direccion principal en internet donde se encuentra un sitio web.
 
-###Hosting
+### Hosting
 Espacio en un servidor web para guardar los archivos de un sitio web, normalmente vinculado a un **dominio**.
 
 ## Hyper Text Markup Language
@@ -381,6 +381,14 @@ El atributo src es para indicar la ubicación del archivo de audio mientras el a
 ## Elementos de formulario
 
 ### Form
+Este el elemento es el que va envolvera o agrupar todos los campos del formulario, es el formulario en sí.
+
+```html
+<form action="process.php" method="POST">
+	...
+</form>
+
+Por lo general tienen un atributo action que hace referencia al archivo que se va encargar de procesar los datos ingresados y el atributo method que es indica la forma en que se va enviar para caso de formularios de contacto sería el valor **POST**
 
 ### Label
 
