@@ -123,7 +123,11 @@ Los enlaces son los que nos van a permitir conectar las paginas de nuestro sitio
 <!-- enlace para ir dirigirnos a otro sitio -->
 <a href="http://www.google.com">Ir a Google</a>
 ```
-**TIP:** Si deseas que el destino se abra en otra pestaña del navegador le añades el atributo **_target_** con el valor **__blank_** 
+**TIP:** Si deseas que el destino se abra en otra pestaña del navegador le añades el atributo **_target_** con el valor **__blank_**
+
+```html
+<a href="http://facebook.com" target="_blank">Este enlace abrirá en otra pestaña</a>
+``` 
 
 ## Imagenes
 
@@ -393,7 +397,32 @@ Por lo general tienen un atributo action que hace referencia al archivo que se v
 
 ### Label
 
+Esta etiqueta siempre acompaña a los campos de entrada así sabemos que dato queremos ingresar en dicho campo.
+
+```html
+<label for="username">Nombre:</label>
+<input type="text" id="username">
+```
+**TIP:** con el atributo **_for_** vinculamos el label a su input correspondiente y usamos el atributo **_id_** del input
+ 
 ### Input
+
+Son los campos de entrada de datos, existen varios tipos entre ellos tenemos: text, email, radio, checkbox, color, date, etc.  
+
+```html
+<!-- Este campo es para ingreso de textos cortos de una sola línea -->
+<input type="text">
+<!-- Este campo es para ingreo de correos electrónicos -->
+<input type="email">
+<!-- Este tipo de campo para cuando tenemos varias alternativas a selecionar pero solo una podemos marcar -->
+<input type="radio">
+```
+### Textarea
+Este elemento es para cuando requerimos ingresar un texto multilínea podría ser en caso de escribir un comentario o consulta
+
+```html
+<textarea></textarea>	
+```
 
 ### Button
 
