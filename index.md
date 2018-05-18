@@ -123,6 +123,7 @@ Los enlaces son los que nos van a permitir conectar las paginas de nuestro sitio
 <!-- enlace para ir dirigirnos a otro sitio -->
 <a href="http://www.google.com">Ir a Google</a>
 ```
+**TIP:** Si deseas que el destino se abra en otra pestaña del navegador le añades el atributo **_target_** con el valor **__blank_** 
 
 ## Imagenes
 
