@@ -392,7 +392,7 @@ Este el elemento es el que va envolvera o agrupar todos los campos del formulari
 <form action="process.php" method="POST">
 	...
 </form>
-```
+``
 
 Por lo general tienen un atributo action que hace referencia al archivo que se va encargar de procesar los datos ingresados y el atributo method que es indica la forma en que se va enviar para caso de formularios de contacto sería el valor **POST**
 
@@ -426,5 +426,12 @@ Este elemento es para cuando requerimos ingresar un texto multilínea podría se
 ```
 
 ### Button
+Este elemento nos va servir básicamente para poder envíar el formulario aunque también podría enviarse presionando la tecla **ENTER** debe tener un atributo **_type_** con el valor de **_submit_**
+
+```html
+<button type="submit">Enviar</button>
+``` 
+
+
 
 ## Estilos CSS
