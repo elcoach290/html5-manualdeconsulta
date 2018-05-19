@@ -343,7 +343,7 @@ Se usa para envolver imágenes, gráficos o fragmentos de código, pueden inclui
 ```
 ## El elemento agrupador DIV
 
-Se usa para agrupar otros elementos con fines de adaptar la disposición de estos al diseño de la interfaz, no aporta semántica 
+Se usa para agrupar otros elementos con fines de adaptar la disposición de estos al diseño de la interfaz, no aporta semántica. Se usa como elemento *comodín*. Por defecto se comporta como un elemento de tipo bloque.
 
 ```html
 <article>
@@ -366,7 +366,7 @@ Se usa para agrupar otros elementos con fines de adaptar la disposición de esto
 ```
 
 ## Elementos Multimedia
-Con HTML5 ahora podemos incluir videos y audio ya que antes solo era posible hacerlo usando plugins adicionales como el conocido flash player que ahora solo es parte de la historia del desarrollo web.
+Con HTML5 ahora podemos incluir videos y audio.
 
 ### Video
 De esta forma podríamos incluir un video dentro de nuestro sitio web
@@ -374,7 +374,13 @@ De esta forma podríamos incluir un video dentro de nuestro sitio web
 <video src="videos/intro.mp4" controls></video>
 ```
 
-El atributo src es para indicar la ubicación del video mientras el atributo controls permite mostrar los controles de reproducción, otros atributos opcionales son: poster, preload, height, autoplay, muted.
+El atributo src es para indicar la ubicación del video mientras el atributo controls permite mostrar los controles de reproducción, otros atributos opcionales son: 
+* poster: muestra una imagen como carátula del video (hay que pasarle una URL)
+* preload: define si el video debe comenzar a cargarse en cuanto carga la página o no 
+* height: altura en pixels del video
+* autoplay: define si el video debe comenzar a verse en cuanto haya cargado
+* muted: define si debe silenciarse el video de forma automática
+* controls: define si los controles de video deben mostrarse o no (pausa, play)
 
 ### Audio
 De esta forma podríamos incluir un audio o sonido dentro de nuestro sitio web
@@ -394,7 +400,7 @@ Este el elemento es el que va envolvera o agrupar todos los campos del formulari
 </form>
 ``
 
-Por lo general tienen un atributo action que hace referencia al archivo que se va encargar de procesar los datos ingresados y el atributo method que es indica la forma en que se va enviar para caso de formularios de contacto sería el valor **POST**
+Por lo general tienen un atributo action que hace referencia la ruta(URL) que se va encargar de procesar los datos ingresados y el atributo method que es indica la forma en que se va enviar para caso de formularios de contacto sería el valor **POST**, los formularios web solo soportan los métodos POST y GET, siendo GET el método por defecto.
 
 ### Label
 
@@ -432,7 +438,7 @@ Este elemento nos va servir básicamente para poder envíar el formulario aunque
 <button type="submit">Enviar</button>
 ```
 
-**TIP:** A los campos de entrada podemos añadirle un atributo **_required_** que los convierte en campos obligatorios, y también un atributo **_placeholder_** con el valor que desees se muestre dentro del campo cuando no se ha ingresado nada aún, a modo de pista de como se podría llenar.
+**TIP:** A los campos de entrada podemos añadirle un atributo **_required_** que los convierte en campos obligatorios, y también un atributo **_placeholder_** con el valor que desees se muestre dentro del campo cuando no se ha ingresado nada aún, a modo de guía de como se podría llenar.
 
 ```html
 <input type="email" placeholder="anthony@prodesigner.com" required>
