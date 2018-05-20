@@ -102,7 +102,10 @@ Cuando necesitamos escribir parrafos el texto lo colocamos dentro de la etiqueta
 
 ```html
 <p>Todo lo que necesitas para lograr tus objetivos ya está en ti.</p>
-<p>No vas a dominar el resto de tu vida en un día. Relájate. Domina el día. Entonces sigue haciendo eso todos los días.</p>
+<p>
+No vas a dominar el resto de tu vida en un día. Relájate. 
+Domina el día. Entonces sigue haciendo eso todos los días.
+</p>
 ```
 
 ## Enlaces
@@ -115,7 +118,9 @@ Los enlaces son los que nos van a permitir conectar las paginas de nuestro sitio
 <!-- enlace a un id específico dentro de una web -->
 <a href="#id-a-visitar">Ir a sección</a> <!-- en la página actual -->
 <a href="seccion/#id-a-visitar">Ir a sección</a> <!-- en otra página de la misma web -->
-<a href="http://webdeotracosa.com/seccion/#id-a-visitar">Ir a sección</a> <!-- en otra página de internet -->
+<a href="http://webdeotracosa.com/seccion/#id-a-visitar">
+	Ir a sección
+</a> <!-- en otra página de internet -->
 <!-- enlace para visualizar un archivo pdf -->
 <a href="curriculum.pdf">Ver curriculum</a>
 <!-- enlace para visualizar una imagen -->
@@ -149,8 +154,12 @@ En ellas importa el orden de los elementos podrian ser los pasos para realizar u
 
 ```html
 <ol>
-	<li>Acudir al Banco de la Nación, pedir el concepto 1810 y pagar S/ 98.50 por el pasaporte biométrico.</li>
-	<li>Ingresar a www.migraciones.gob.pe, llenar el formulario y separar una cita.</li>
+	<li>Acudir al Banco de la Nación</li>
+	<li>Pedir el concepto 1810</li>
+	<li>Pagar S/ 98.50 por el pasaporte biométrico.</li>
+	<li>Ingresar a www.migraciones.gob.pe</li>
+	<li>Llenar el formulario </li>
+	<li>Separar una cita.</li>
 	<li>El pasaporte será entregado en las 14 sedes de Migraciones. Debe llevar su voucher y DNI, no es necesario una foto.</li>
 </ol>
 ```
@@ -298,7 +307,10 @@ Representa al pie de la página o sección, normalmente van datos de contacto, e
 
 ```html
 <footer>
-	<p>Copyright 2018 - Diseño y Desarrollo por <a href="http://www.anthonystudio.com">anthonystudio.com</a></p>
+	<p>
+		Copyright 2018 - Diseño y Desarrollo por 
+		<a href="http://www.anthonystudio.com">anthonystudio.com</a>
+	</p>
 </footer>
 ```
 
@@ -309,7 +321,10 @@ Se usa envolver a una composición de elementos con datos que hacen referencia a
 ```html
 <article>
 	<h2>Perú en alerta epidemiológica</h2>
-	<p>En dos semanas hay más de 30 afectados confirmados, cuatro de ellos en Lima ...</p>
+	<p>
+		En dos semanas hay más de 30 afectados confirmados,
+	 	cuatro de ellos en Lima ...
+	 </p>
 	<img src="images/foto.jpg" alt="Afectados por el virus">
 </article>
 ```
@@ -398,7 +413,7 @@ Este el elemento es el que va envolvera o agrupar todos los campos del formulari
 <form action="process.php" method="POST">
 	...
 </form>
-``
+```
 
 Por lo general tienen un atributo action que hace referencia la ruta(URL) que se va encargar de procesar los datos ingresados y el atributo method que es indica la forma en que se va enviar para caso de formularios de contacto sería el valor **POST**, los formularios web solo soportan los métodos POST y GET, siendo GET el método por defecto.
 
@@ -421,7 +436,8 @@ Son los campos de entrada de datos, existen varios tipos entre ellos tenemos: te
 <input type="text">
 <!-- Este campo es para ingreo de correos electrónicos -->
 <input type="email">
-<!-- Este tipo de campo para cuando tenemos varias alternativas a selecionar pero solo una podemos marcar -->
+<!-- Este tipo de campo para cuando tenemos varias alternativas 
+a selecionar pero solo una podemos marcar -->
 <input type="radio">
 ```
 ### Textarea
