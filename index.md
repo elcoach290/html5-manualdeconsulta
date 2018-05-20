@@ -117,7 +117,9 @@ Los enlaces son los que nos van a permitir conectar las paginas de nuestro sitio
 <a href="index.html">Ir al Home</a>
 <!-- enlace a un id específico dentro de una web -->
 <a href="#id-a-visitar">Ir a sección</a> <!-- en la página actual -->
-<a href="seccion/#id-a-visitar">Ir a sección</a> <!-- en otra página de la misma web -->
+<a href="seccion/#id-a-visitar">
+	Ir a sección
+</a> <!-- en otra página de la misma web -->
 <a href="http://webdeotracosa.com/seccion/#id-a-visitar">
 	Ir a sección
 </a> <!-- en otra página de internet -->
@@ -131,7 +133,9 @@ Los enlaces son los que nos van a permitir conectar las paginas de nuestro sitio
 **TIP:** Si deseas que el destino se abra en otra pestaña del navegador le añades el atributo **_target_** con el valor **__blank_**
 
 ```html
-<a href="http://facebook.com" target="_blank">Este enlace abrirá en otra pestaña</a>
+<a href="http://facebook.com" target="_blank">
+	Este enlace abrirá en otra pestaña
+</a>
 ``` 
 
 ## Imagenes
@@ -221,7 +225,10 @@ Es para mostras datos tabulares o datos extraido mediante alguna consulta a una 
 Nos sirve para indicar que un texto o palabra es importante:
 
 ```html
-<p>El personaje de Tony Stark es caracterizado por el actor <strong>Robert Downey Jr.</strong></p>
+<p>
+	El personaje de Tony Stark es caracterizado 
+	por el actor <strong>Robert Downey Jr.</strong>
+</p>
 ```
 
 ### Span
@@ -277,7 +284,11 @@ Para envolver a los elementos de la cabecera de una pagina web o seccion, pudien
 
 ```html
 <header>
-	<h1><a href="index.html"><img src="images/logo.svg" alt="Gatotel"></a></h1>
+	<h1>
+		<a href="index.html">
+			<img src="images/logo.svg" alt="Gatotel">
+		</a>
+	</h1>
 	<nav>
 		<ul>
 			<li><a href="#">Inicio</a></li>
