@@ -160,7 +160,8 @@ En ellas importa el orden de los elementos podrian ser los pasos para realizar u
 	<li>Ingresar a www.migraciones.gob.pe</li>
 	<li>Llenar el formulario </li>
 	<li>Separar una cita.</li>
-	<li>El pasaporte será entregado en las 14 sedes de Migraciones. Debe llevar su voucher y DNI, no es necesario una foto.</li>
+	<li>El pasaporte será entregado en las 14 sedes de Migraciones. 
+		Debe llevar su voucher y DNI, no es necesario una foto.</li>
 </ol>
 ```
 
