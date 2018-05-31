@@ -475,26 +475,32 @@ Este elemento nos va servir básicamente para poder envíar el formulario aunque
 
 ## Estilos CSS
 
-Para poder dar formato a nuestros documentos HTML vamos a usar el Lenguaje CSS el cual nos permitirá personalizar colores, tipografías, espaciados, diagramación etc.
+Para poder dar formato a nuestros documentos HTML vamos a usar el Lenguaje CSS el cual nos permitirá personalizar colores,
+ tipografías, espaciados, diagramación etc.
 
-# Propiedades de texto
+### Propiedades de texto
 
 Entre las propiedades para dar formato al texto tenemos:
 
 
 
-# Colores
+### Colores
 
-Para aplicar colores se pueden usar hacer referencia a estos de  diferentes formas, mediante el nombre del color en inglés, por ejemplo para el color negro podemos usar la palabra **black**, para el color rosado, la palabra **pink**, etc. También se puede usar el formato hexadecimal siendo **#ff0000** para el color rojo,  **#000000** para el color negro. El formato rgba que permite añadir un canal alfa que controla el nivel de transparencia, **rgba(0,0,0,0.5)** sería para un color negro semi transparente, a un nivel de transparencia del cincuenta porciento.
-
-
-
-
-# Estilos de lista
-
-
-# Modelo de caja
+Para aplicar colores se pueden usar hacer referencia a estos de  diferentes formas, 
+mediante el nombre del color en inglés, por ejemplo para el color negro podemos usar la palabra **black**, 
+para el color rosado, la palabra **pink**, etc. 
+También se puede usar el formato hexadecimal siendo **#ff0000** para el color rojo,  **#000000** para el color negro. 
+El formato rgba que permite añadir un canal alfa que controla el nivel de transparencia,
+ **rgba(0,0,0,0.5)** sería para un color negro semi transparente, a un nivel de transparencia del cincuenta porciento.
 
 
-# Propiedades flexbox
+
+
+### Estilos de lista
+
+
+### Modelo de caja
+
+
+### Propiedades flexbox
 
