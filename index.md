@@ -12,15 +12,15 @@
 
 - [Hyper Text Markup Language](#hyper-text-markup-language)	
 	- [Estructura básica de todo documento HTML5](#estructura-basica-de-todo-documento-html5)
-	- [Elementos básicos](#Elementos_basicos)
-		- [Titulares](#Titulares)
-		- [Parrafos](#Parrafos)
-		- [Enlaces](#Enlaces)
-		- [Imagenes](#Imagenes)
-		- [Listas](#Listas)
-		- [Tablas](#Tablas)
-		- [Otras etiquetas](#Otras_etiquetas)
-	- [Agrupadores Semánticos](#Agrupadores_semanticos)
+	- [Elementos básicos](#elementos-básicos)
+		- [Titulares](#headings)
+		- [Parrafos](#parrafos)
+		- [Enlaces](#enlaces)
+		- [Imagenes](#imagenes)
+		- [Listas](#listas)
+		- [Tablas](#tablas)
+		- [Otras etiquetas](#otras-etiquetas)
+	- [Agrupadores Semánticos](#agrupadores-semánticos)
 		- [Nav](#Nav)
 		- [Header](#Header)
 		- [Main](#Main)
@@ -84,8 +84,9 @@ El Hyper Text Markup Language ( HTML ) es un lenguaje de marcado o etiquetado qu
 	</body>
 </html>
 ```
+### Elementos básicos
 
-## Headings
+#### Headings
 
 Son los encabezados o titulos que usaremos en nuestro documento existen del **h1** al **h6**, siendo el mas importante el **h1** y asi va bajando hasta el **h6** que es el menor importante.
 
@@ -96,7 +97,7 @@ Son los encabezados o titulos que usaremos en nuestro documento existen del **h1
 <h6>El titulo menos importante</h6>
 ```
 
-## Parrafos
+#### Párrafos
 
 Cuando necesitamos escribir parrafos el texto lo colocamos dentro de la etiquetas `<p></p>`
 
@@ -108,7 +109,7 @@ Domina el día. Entonces sigue haciendo eso todos los días.
 </p>
 ```
 
-## Enlaces
+#### Enlaces
 
 Los enlaces son los que nos van a permitir conectar las paginas de nuestro sitio o conectarlas con otras paginas externas, tambien podemos colocar como destinos de los enlaces imagenes o documentos como pdfs.
 
@@ -138,7 +139,7 @@ Los enlaces son los que nos van a permitir conectar las paginas de nuestro sitio
 </a>
 ``` 
 
-## Imagenes
+#### Imagenes
 
 Podemos vincular imagenes de distintos tipos en nuestras paginas web para que se puedan visualizar al momento de visualizarse de la siguiente manera:
 
@@ -148,11 +149,11 @@ Podemos vincular imagenes de distintos tipos en nuestras paginas web para que se
 
 Requieren de dos atributos, **src** para indicar la ubicacion de la imagen y **alt** que es para indicar un texto alternativo en casos la imagen por algun motivo no se haya descargado, tambien sirve para la accesibilidad, muy importante para los usuarios invidentes. Recordemos que podemos cargar muchos formatos de imagen, como son JPG, PNG y GIF
 
-## Listas
+#### Listas
 
 Las lista se utilizan cuando requieres mostras una secuencia de datos o elementos, pueden ser ordenadas o desordenadas.
 
-### Listas ordenadas
+##### Listas ordenadas
 
 En ellas importa el orden de los elementos podrian ser los pasos para realizar un tramite.
 
@@ -169,7 +170,7 @@ En ellas importa el orden de los elementos podrian ser los pasos para realizar u
 </ol>
 ```
 
-### Listas no ordenadas
+##### Listas no ordenadas
 
 En ellas no es relevante el orden de los elementos y se pueden tener otras etiquetas incluso, como en el caso de un listado de enlaces:
 
@@ -181,7 +182,7 @@ En ellas no es relevante el orden de los elementos y se pueden tener otras etiqu
 </ul>
 ```
 
-## Tablas
+#### Tablas
 
 Es para mostras datos tabulares o datos extraido mediante alguna consulta a una base de datos, pudiendo ser estos registros, por ejemplo datos de los usuarios.
 
@@ -218,9 +219,9 @@ Es para mostras datos tabulares o datos extraido mediante alguna consulta a una 
 </table>
 ```
 
-## Otras etiquetas
+#### Otras etiquetas
 
-### Strong
+##### Strong
 
 Nos sirve para indicar que un texto o palabra es importante:
 
@@ -231,7 +232,7 @@ Nos sirve para indicar que un texto o palabra es importante:
 </p>
 ```
 
-### Span
+##### Span
 
 Esta etiqueta sirve para poder cambiar el formato a una palabra a caracter sin que esto afecte su significado, el cambio recien se hace visible aplicando estilos css
 
@@ -239,7 +240,7 @@ Esta etiqueta sirve para poder cambiar el formato a una palabra a caracter sin q
 <h2><span>Gatotel</span>, un lugar para quedarse.</h2>
 ```
 
-### Blockquote
+##### Blockquote
 
 Sirve para citar a un texto de un tercero , que no es de nuestra propia autoría.
 
