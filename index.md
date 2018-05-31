@@ -2,16 +2,16 @@
 
 ## Indice
 
-- [Conceptos Basicos](#Conceptos_Basicos_4)
-	- [Carpeta](#Carpeta)
-	- [Archivo](#Archivo)
-	- [Sitio Web](#Sitio_Web)
-	- [Pagina Web](#Pagina_Web)
-	- [Dominio](#Dominio)
-	- [Hosting](#Hosting)
+- [Conceptos Basicos](#conceptos-basicos)
+	- [Carpeta](#carpeta)
+	- [Archivo](#archivo)
+	- [Sitio Web](#sitio-web)
+	- [Pagina Web](#pagina-web)
+	- [Dominio](#dominio)
+	- [Hosting](#hosting)
 
-- [Hyper Text Markup Language](#Hyper_Text_Markup_Language)	
-	- [Estructura básica de todo documento HTML5](#Estructura_basica_de_todo_documento_HTML5_9)
+- [Hyper Text Markup Language](#hyper-text-markup-language)	
+	- [Estructura básica de todo documento HTML5](#estructura-basica-de-todo-documento-html5)
 	- [Elementos básicos](#Elementos_basicos)
 		- [Titulares](#Titulares)
 		- [Parrafos](#Parrafos)
@@ -475,26 +475,32 @@ Este elemento nos va servir básicamente para poder envíar el formulario aunque
 
 ## Estilos CSS
 
-Para poder dar formato a nuestros documentos HTML vamos a usar el Lenguaje CSS el cual nos permitirá personalizar colores, tipografías, espaciados, diagramación etc.
+Para poder dar formato a nuestros documentos HTML vamos a usar el Lenguaje CSS el cual nos permitirá personalizar colores,
+ tipografías, espaciados, diagramación etc.
 
-# Propiedades de texto
+### Propiedades de texto
 
 Entre las propiedades para dar formato al texto tenemos:
 
 
 
-# Colores
+### Colores
 
-Para aplicar colores se pueden usar hacer referencia a estos de  diferentes formas, mediante el nombre del color en inglés, por ejemplo para el color negro podemos usar la palabra **black**, para el color rosado, la palabra **pink**, etc. También se puede usar el formato hexadecimal siendo **#ff0000** para el color rojo,  **#000000** para el color negro. El formato rgba que permite añadir un canal alfa que controla el nivel de transparencia, **rgba(0,0,0,0.5)** sería para un color negro semi transparente, a un nivel de transparencia del cincuenta porciento.
-
-
-
-
-# Estilos de lista
-
-
-# Modelo de caja
+Para aplicar colores se pueden usar hacer referencia a estos de  diferentes formas, 
+mediante el nombre del color en inglés, por ejemplo para el color negro podemos usar la palabra **black**, 
+para el color rosado, la palabra **pink**, etc. 
+También se puede usar el formato hexadecimal siendo **#ff0000** para el color rojo,  **#000000** para el color negro. 
+El formato rgba que permite añadir un canal alfa que controla el nivel de transparencia,
+ **rgba(0,0,0,0.5)** sería para un color negro semi transparente, a un nivel de transparencia del cincuenta porciento.
 
 
-# Propiedades flexbox
+
+
+### Estilos de lista
+
+
+### Modelo de caja
+
+
+### Propiedades flexbox
 
