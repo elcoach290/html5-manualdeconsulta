@@ -2,10 +2,10 @@
 
 ## Indice
 
-- [Conceptos Basicos](#Conceptos_Basicos_4)
-	- [Carpeta](#Carpeta)
-	- [Archivo](#Archivo)
-	- [Sitio Web](#Sitio_Web)
+- [Conceptos Basicos](#conceptos-basicos)
+	- [Carpeta](#carpeta)
+	- [Archivo](#archivo)
+	- [Sitio Web](#sitio-web)
 	- [Pagina Web](#Pagina_Web)
 	- [Dominio](#Dominio)
 	- [Hosting](#Hosting)
