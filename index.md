@@ -495,12 +495,46 @@ El formato rgba que permite añadir un canal alfa que controla el nivel de trans
  **rgba(0,0,0,0.5)** sería para un color negro semi transparente, a un nivel de transparencia del cincuenta porciento.
 
 
-
-
 ### Estilos de lista
 
 
 ### Modelo de caja
+
+#### Content: 
+Contenido de la caja, podría ser un texto, una imagen, etc.
+
+#### Padding:
+Es la distancia del contenido de la caja hacia dentro del contenedor.
+```css
+.box{
+	padding-right: 5px; /* distancia hacia el lado derecho. */
+	padding-left: 5px; /* distancia hacia el lado izquierdo. */
+	padding-top:5px; /* distancia hacia arriba. */
+	padding-botton: 5px; /* distancia hacia abajo. */
+}
+```
+padding: 5px 5px; (el primero es para el right y left, el segundo es para el top y botton). 
+
+#### Margin:
+Es la distancia de la caja hacia afuera del contenedor.
+
+margin-right: 5px; (distancia hacia el lado derecho).
+margin-left: 5px; (distancia hacia el lado izquierdo).
+margin-top:5px; (distancia hacia arriba).
+margin-botton: 5px; (distancia hacia abajo).
+
+Si quiero centrar una caja le puedo dar un tamaño específico( width o max-width: 300px o también en %:  100%;  y le doy margin-right y margin-left: auto;
+
+#### Border:
+Trazo o línea de contorno, podríamos usar las propiedades:
+border-style: solid; (estilo de linea).
+border-color: black; (color de borde).
+border-width: 10px; (grosor del trazo).
+border-radius: 5px; (radio del borde).
+
+border: solid 5px black; (para ahorrar código).
+
+box-sizing: border-box; (para que todas las reglas respeten el tamaño de la caja)
 
 
 ### Propiedades flexbox
