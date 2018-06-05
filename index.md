@@ -497,8 +497,8 @@ El formato rgba que permite añadir un canal alfa que controla el nivel de trans
 
 ### Estilos de lista
 
-
 ### Modelo de caja
+Sirve para comprender las diferentes propiedades que afectan al tamaño y disposición de una caja.
 
 #### Content: 
 Contenido de la caja, podría ser un texto, una imagen, etc.
@@ -513,28 +513,61 @@ Es la distancia del contenido de la caja hacia dentro del contenedor.
 	padding-botton: 5px; /* distancia hacia abajo. */
 }
 ```
-padding: 5px 5px; (el primero es para el right y left, el segundo es para el top y botton). 
+**TIP:** Si deseas ahorrar líneas de código puedes aplicar esto:
+```css
+.box{
+	padding: 5px 10px; /* el primero es para el right y left, el segundo es para el top y botton */ 
+}
+```
 
 #### Margin:
 Es la distancia de la caja hacia afuera del contenedor.
 
-margin-right: 5px; (distancia hacia el lado derecho).
-margin-left: 5px; (distancia hacia el lado izquierdo).
-margin-top:5px; (distancia hacia arriba).
-margin-botton: 5px; (distancia hacia abajo).
+```css
+.box{
+	margin-right: 5px; /* distancia hacia el lado derecho */
+	margin-left: 5px; /* distancia hacia el lado izquierdo */
+	margin-top:5px; /* distancia hacia arriba */
+	margin-botton: 5px; /* distancia hacia abajo */
+}
+```
 
-Si quiero centrar una caja le puedo dar un tamaño específico( width o max-width: 300px o también en %:  100%;  y le doy margin-right y margin-left: auto;
+**TIP:** Si deseas centrar una caja horizontalmente puedes usar este pequeño truco.
+
+```css
+.box{
+	width: 800px; /* aplicarle un ancho, también funciona con max-width */
+	margin-left: auto; /* el valor auto para equilibrar el lado izquierdo */ 
+	margin-right: auto; /* con el lado derecho  */
+}
+```
 
 #### Border:
-Trazo o línea de contorno, podríamos usar las propiedades:
-border-style: solid; (estilo de linea).
-border-color: black; (color de borde).
-border-width: 10px; (grosor del trazo).
-border-radius: 5px; (radio del borde).
+Trazo o línea de contorno, podrías usar las propiedades:
 
-border: solid 5px black; (para ahorrar código).
+```css
+.box{
+	border-style: solid; /* estilo de linea */
+	border-color: black; /* color de borde */
+	border-width: 10px; /* grosor del trazo */
+	border-radius: 5px; /* radio del borde */
+}
+```
+**TIP:** si deseas ahorrar escribiendo todas las declaraciones puedes usar este __shorthand__
 
-box-sizing: border-box; (para que todas las reglas respeten el tamaño de la caja)
+```css
+.box{
+	border: solid 5px black; /* style width color */
+}
+```
+
+**TIP:** Si deseas  que el padding y border respeten el tamaño de la caja, en otras palabras el tamaño de la caja lo defina el width del content, puedes usar esta propiedad:
+
+```css
+.box{
+	box-sizing: border-box;
+}
+```
 
 
 ### Propiedades flexbox
