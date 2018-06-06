@@ -720,13 +720,13 @@ body{
 ```
 La explicación de los valores permitidos para esta propiedad es compleja debido a su gran flexibilidad. Son dos valores separados por un espacio.
 
-En el primer valor se puede escribrir: un porcentaje,  medida exacta en pixeles, left, center ó right.
-En el segundo valor se puede escribir: un porcentaje, medida exacta en pixeles, top, center ó bottom.
-Si se utilizan porcentajes, hace referencia a la anchura del propio elemento. (valor inicial: 0% 0%)
+- En el primer valor se puede escribrir: un porcentaje,  medida exacta en pixeles, left, center ó right.
+- En el segundo valor se puede escribir: un porcentaje, medida exacta en pixeles, top, center ó bottom.
+- Si se utilizan porcentajes, hace referencia a la anchura del propio elemento.
 
 También podrías aplicar:
-En el primer valor: left, center ó right.
-En el segundo valor: top, center ó bottom.
+- En el primer valor: left, center ó right.
+- En el segundo valor: top, center ó bottom.
 
 Entonces si deseamos una imagen alineada en la parte derecha inferior sería:
 
