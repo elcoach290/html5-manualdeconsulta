@@ -649,4 +649,99 @@ Por defecto, todos los elementos hijos  intentarán caber en una línea. Puede c
 **wrap-reverse:** Los elementos se envuelven alrededor de líneas adicionales en reversa.
 
 
+### Imágenes de Fondo
+
+#### Background-image
+Sirve para establecer la imagen de fondo de un elemento. La imagen se muestra en la zona que ocupan el contenido y el relleno del elemento, justo hasta su borde.
+
+Para indicar la imagen que se muestra como fondo de un elemento, se utiliza una URL. 
+
+```css
+body{
+  background-image: url("../images/fondo.jpg");
+}
+```
+
+#### Background-size
+Esta propiedad se utiliza para determinar el tamaño de la imagen de fondo, estableciendo ancho y alto de la misma.
+
+```css
+body{
+  background-image: url("imagenes/fondo.jpg");
+  Background-size: 300px 200px; /* otros valores: 50% 50%, cover */
+}
+```
+**TIP:** si se le asigna el valor **cover** la imagen cubrirá todo el area disponible, muy util para cuando queremos que se adapte a diferentest tamaños de pantalla o dispositivo.
+
+#### Background-attachment
+Esta propiedad sirve para controlar si la imagen de fondo se mueve o permanece fija cuando se hace scroll en la ventana del navegador. 
+
+**Scroll:** Es el valor base y consiste en que la imagen de fondo se mueve con el elemento.
+
+**Fixed:** Consiste en que la imagen de fondo permanece fija cuando se hace scroll en la ventana del navegador.
+
+```css
+body {
+  background-image: url("../images/fondo.jpg");
+  background-attachment: fixed;
+}
+```
+
+#### Background-repeat
+Esta propiedad sirve para controlar el tipo de repetición de las imágenes de fondo, si se repite o no y las direcciones en las que se repite. Se pueden usar solo uno de los siguientes valores permitidos a la vez: repeat, repeat-x, 
+repeat-y ó no-repeat.
+
+Por defecto, si la imagen de fondo que se establece con la propiedad background-image es más pequeña que el sitio disponible, el navegador repite la imagen en todas las direcciones hasta cubrir completamente la superficie del elemento.
+```css
+body {
+  background-image: url("../images/patron.jpg");
+  background-repeat: no-repeat;
+}
+```
+
+
+Los valores repeat-x y repeat-y permiten repetir la imagen de fondo sólo en una dirección (horizontal o vertical).
+```css
+body {
+  background-image: url("../images/patron.jpg");
+  background-repeat: repeat-x;
+}
+```
+
+#### Background-position
+Esta propiedad se utiliza para controlar la posición de las imágenes de fondo.
+
+```css
+body{
+	background-image: url("../images/flower.png");
+	background-repeat: no-repeat;
+	background-position: 10px 30px;
+}
+```
+La explicación de los valores permitidos para esta propiedad es compleja debido a su gran flexibilidad. Son dos valores separados por un espacio.
+
+En el primer valor se puede escribrir: un porcentaje,  medida exacta en pixeles, left, center ó right.
+En el segundo valor se puede escribir: un porcentaje, medida exacta en pixeles, top, center ó bottom.
+Si se utilizan porcentajes, hace referencia a la anchura del propio elemento. (valor inicial: 0% 0%)
+
+También podrías aplicar:
+En el primer valor: left, center ó right.
+En el segundo valor: top, center ó bottom.
+
+Entonces si deseamos una imagen alineada en la parte derecha inferior sería:
+
+```css
+.header{
+	background-image: url("../images/petunia.png");
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+```
+
+
+
+
+
+
+
 
