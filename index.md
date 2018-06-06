@@ -608,7 +608,7 @@ Esto define el comportamiento predeterminado de cómo se colocan los elementos h
 
 ```css
 div{
-  display:flex
+  display: flex;
   align-items: flex-star; /* otros valores posibles son: flex-end, center, baseline, stretch */
 }
 ```
@@ -625,7 +625,7 @@ Esto establece el eje principal, definiendo así la dirección en que se colocan
 
 ```css
 .menu{
-  display:flex
+  display: flex;
   flex-direction: row; /* otros valores posibles son: row-reverse, column,  column-reverse */
 }
 ```
@@ -640,7 +640,7 @@ Por defecto, todos los elementos hijos  intentarán caber en una línea. Puede c
 
 ```css
 .posts{
-  display:flex
+  display: flex;
   flex-wrap: nowrap; /* otros valores: wrap, wrap-reverse */
 }
 ```
