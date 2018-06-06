@@ -500,10 +500,17 @@ El formato rgba que permite añadir un canal alfa que controla el nivel de trans
 ### Modelo de caja
 Sirve para comprender las diferentes propiedades que afectan al tamaño y disposición de una caja.
 
-#### Content: 
-Contenido de la caja, podría ser un texto, una imagen, etc.
+#### Content (contenido): 
+Contenido de la caja el cual podría tener un texto, una imagen, u otros elementos, se le puede definir anchura con la propiedad **width** y altura con la propiedad **height**.
 
-#### Padding:
+```css
+.box{
+	width: 800px; /* ancho de 800 pixeles */
+	height: 600px; /* de preferencia es mejor no aplicarlo y dejar que lo que va dentro le de la altura con su propio volumen */
+}
+```
+
+#### Padding (relleno):
 Es la distancia del contenido de la caja hacia dentro del contenedor.
 ```css
 .box{
@@ -520,7 +527,7 @@ Es la distancia del contenido de la caja hacia dentro del contenedor.
 }
 ```
 
-#### Margin:
+#### Margin (margen):
 Es la distancia de la caja hacia afuera del contenedor.
 
 ```css
@@ -542,7 +549,7 @@ Es la distancia de la caja hacia afuera del contenedor.
 }
 ```
 
-#### Border:
+#### Border (borde):
 Trazo o línea de contorno, podrías usar las propiedades:
 
 ```css
@@ -569,6 +576,77 @@ Trazo o línea de contorno, podrías usar las propiedades:
 }
 ```
 
-
 ### Propiedades flexbox
+
+#### Display
+A esta propiedad le asignamos un valor **flex** o **flex-inline** (es lo menos común) dependiendo de la necesidad en tu diagramación. Al darle este valor permite disponer de un modo más fácil a todos sus hijos directos. Por defecto lo que va pasar es que todos sus hijos se acomoden de forma horizontal uno al lado del otro.
+
+```css
+.menu{
+  display: flex;
+}
+```
+
+#### Justify-content
+La propiedad **justify-content** sirve para alinear a los elementos hijos cuando estos no usan todo el espacio disponible en el eje principal (por defecto es el horizontal).
+
+```css
+.menu{
+  display: flex;
+  justify-content: flex-start; /* otros valores posibles son: flex-end, center,  space-between, space-around, space-evenly */
+}
+```
+
+**flex-start:** Alinea elementos al lado izquierdo del contenedor.
+**flex-end:** Alinea elementos al lado derecho del contenedor.
+**center: **Alinea elementos en el centro del contenedor.
+**space-between:** Muestra elementos con la misma distancia entre ellos.
+**space-around:** Muestra elementos con la misma separación alrededor de ellos.
+
+#### Align-items
+Esto define el comportamiento predeterminado de cómo se colocan los elementos hijos a lo largo del eje transversal en la línea actual (por defecto es el eje vertical). Es como la versión de **justify-content** para el eje transversal (perpendicular al eje principal).
+
+```css
+div{
+  display:flex
+  align-items: flex-star; /* otros valores posibles son: flex-end, center, baseline, stretch */
+}
+```
+**flex-start:** Alinea elementos hijos a la parte superior del contenedor padre.
+**flex-end:** Alinea elementos hijos a la parte inferior del contenedor padre.
+**center:** Alinea elementos hijos en el centro (verticalmente hablando) del contenedor padre.
+**baseline:** Muestra elementos hijos en la línea base del contenedor padre.
+**stretch:** Elementos hijos se estiran para ajustarse al contenedor padre.
+
+
+#### Flex-direction
+
+Esto establece el eje principal, definiendo así la dirección en que se colocan los elementos hijos  en el contenedor padre.
+
+```css
+.menu{
+  display:flex
+  flex-direction: row; /* otros valores posibles son: row-reverse, column,  column-reverse */
+}
+```
+**row:** Elementos son colocados en la misma dirección del texto.
+**row-reverse:** Elementos son colocados en la dirección opuesta al texto.
+**column:** Elementos se colocan de arriba hacia abajo.
+**column-reverse:** Elementos se colocan de abajo hacia arriba.
+
+#### Flex-wrap
+
+Por defecto, todos los elementos hijos  intentarán caber en una línea. Puede cambiar eso y permitir que pasen a una segunda fila (si fuera necesario) con esta propiedad.
+
+```css
+.posts{
+  display:flex
+  flex-wrap: nowrap; /* otros valores: wrap, wrap-reverse */
+}
+```
+**nowrap:** Cada elemento se ajusta en una sola línea.
+**wrap:** los elementos se envuelven alrededor de líneas adicionales.
+**wrap-reverse:** Los elementos se envuelven alrededor de líneas adicionales en reversa.
+
+
 
