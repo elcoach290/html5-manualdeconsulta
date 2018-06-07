@@ -73,6 +73,9 @@ El Hyper Text Markup Language ( HTML ) es un lenguaje de marcado o etiquetado qu
 
 Antes de iniciar con los elementos básicos del lenguaje hay que aprender a colocar comentarios dentro de tu código para que te sirvan de recordatorios como notitas donde escribes un texto que te ayude a recordar algún concepto o para que utilizaste tal etiqueta, y además se utilizarán constantemente en los ejemplos.
 
+- Inicio de comentario: `<!--`
+- Fin de comentario: `-->`
+
 ```html
 <!-- Esto es un comentario -->
 <!-- Esto es otro comentario -->
