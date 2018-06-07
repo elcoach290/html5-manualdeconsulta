@@ -88,13 +88,13 @@ El Hyper Text Markup Language ( HTML ) es un lenguaje de marcado o etiquetado qu
 
 #### Titulares (Headings)
 
-Son los encabezados o titulos que usaremos en nuestro documento existen del **h1** al **h6**, siendo el mas importante el **h1** y asi va bajando hasta el **h6** que es el menor importante.
+Son los encabezados o títulos que usaremos en nuestro documento existen del **h1** al **h6**, siendo el mas importante el **h1** y asi va bajando hasta el **h6** que es el menor importante.
 
 ```html
-<h1>El titulo mas importante del documento</h1>
-<h2>El titulo de un segundo nivel de importancia </h2>
+<h1>El título mas importante del documento</h1>
+<h2>El título de un segundo nivel de importancia </h2>
 ...
-<h6>El titulo menos importante</h6>
+<h6>El título menos importante</h6>
 ```
 
 #### Párrafos (Paragraphs)
@@ -149,7 +149,7 @@ Podemos vincular imagenes de distintos tipos en nuestras paginas web para que se
 
 Requieren de dos atributos, **src** para indicar la ubicacion de la imagen y **alt** que es para indicar un texto alternativo en casos la imagen por algun motivo no se haya descargado, tambien sirve para la accesibilidad, muy importante para los usuarios invidentes. Recordemos que podemos cargar muchos formatos de imagen, como son JPG, PNG y GIF
 
-**TIP:** a las imagenes se les pueñe añadir el atributo **width** y dale un valor númerico para indicar su anchura en pixeles, pero se recomienda no usar imagenes muy grandes pues tu página web pesaría mucho, en ese caso se podría editar con Photoshop.
+**TIP:** A las imagenes se les pueñe añadir el atributo **width** y dale un valor númerico para indicar su anchura en pixeles, pero se recomienda no usar imagenes muy grandes pues tu página web pesaría mucho, en ese caso se podría editar con Photoshop.
 
 ```html
 <img src="images/foto.jpg" alt="Foto de Perfil" width="200">
