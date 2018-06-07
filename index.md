@@ -489,8 +489,21 @@ Este elemento nos va servir básicamente para poder envíar el formulario aunque
 
 ## Estilos CSS
 
-Para poder dar formato a nuestros documentos HTML vamos a usar el Lenguaje CSS el cual nos permitirá personalizar colores,
- tipografías, espaciados, diagramación etc.
+Para poder dar formato a nuestros documentos HTML vamos a usar el Lenguaje CSS el cual nos permitirá personalizar colores, tipografías, espaciados, diagramación etc.
+
+Antes de iniciar con las reglas css  hay que aprender a colocar comentarios dentro de tu hoja de estilos para que te sirvan de recordatorios como notitas donde escribes un texto que te ayude a recordar porqué hiciste algo o para que utilizaste tal propiedad, y además se utilizarán constantemente en los ejemplos. Nunca te olvides de cerrar los comentarios:
+
+- Inicio de comentario: `/*`
+- Fin de comentario: `*/`
+
+```css
+/* Esto es un comentario en css */
+/* 
+Esto es
+otro comentario
+en multiples lineas
+*/
+```
 
 ### Colores
 
