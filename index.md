@@ -697,7 +697,7 @@ body{
 }
 ```
 
-#### Background-size
+#### Background-size
 Esta propiedad se utiliza para determinar el tamaño de la imagen de fondo, estableciendo ancho y alto de la misma.
 
 ```css
