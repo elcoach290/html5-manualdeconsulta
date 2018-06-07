@@ -71,6 +71,13 @@ Espacio en un servidor web para guardar los archivos de un sitio web, normalment
 
 El Hyper Text Markup Language ( HTML ) es un lenguaje de marcado o etiquetado que sirve para estructurar la información dentro de una página web, mediante las etiquetas vamos a poder indicar si un texto es un título o un párrafo, si deseamos tener un listado de cierta información también se tiene una etiqueta para este fin.
 
+Antes de iniciar con los elementos básicos del lenguaje hay que aprender a colocar comentarios dentro de tu código para que te sirvan de recordatorios como notitas donde escribes un texto que te ayude a recordar algún concepto o para que utilizaste tal etiqueta
+
+```html
+<!-- Esto es un comentario -->
+<!-- Esto es otro comentario -->
+```
+
 ### Estructura basica de todo documento HTML5
 
 ```html
