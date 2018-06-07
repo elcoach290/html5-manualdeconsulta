@@ -78,7 +78,9 @@ Antes de iniciar con los elementos básicos del lenguaje hay que aprender a colo
 
 ```html
 <!-- Esto es un comentario -->
-<!-- Esto es otro comentario -->
+<!-- Esto es otro comentario 
+en dos o 
+más líneas -->
 ```
 
 ### Estructura basica de todo documento HTML5
