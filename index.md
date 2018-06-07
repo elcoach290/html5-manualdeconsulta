@@ -149,7 +149,7 @@ Podemos vincular imagenes de distintos tipos en nuestras paginas web para que se
 
 Requieren de dos atributos, **src** para indicar la ubicacion de la imagen y **alt** que es para indicar un texto alternativo en casos la imagen por algun motivo no se haya descargado, tambien sirve para la accesibilidad, muy importante para los usuarios invidentes. Recordemos que podemos cargar muchos formatos de imagen, como son JPG, PNG y GIF
 
-**TIP:** a las imagenes se les pueñe añadir el atributo **width** y dale un valor númerico para indicar su anchura en pixeles.
+**TIP:** a las imagenes se les pueñe añadir el atributo **width** y dale un valor númerico para indicar su anchura en pixeles, pero se recomienda no usar imagenes muy grandes pues tu página web pesaría mucho, en ese caso se podría editar con Photoshop.
 
 ```html
 <img src="images/foto.jpg" alt="Foto de Perfil" width="200">
