@@ -485,12 +485,6 @@ Este elemento nos va servir básicamente para poder envíar el formulario aunque
 Para poder dar formato a nuestros documentos HTML vamos a usar el Lenguaje CSS el cual nos permitirá personalizar colores,
  tipografías, espaciados, diagramación etc.
 
-### Propiedades de texto
-
-Entre las propiedades para dar formato al texto tenemos:
-
-
-
 ### Colores
 
 Para aplicar colores se pueden usar hacer referencia a estos de  diferentes formas, 
@@ -499,6 +493,41 @@ para el color rosado, la palabra **pink**, etc.
 También se puede usar el formato hexadecimal siendo **#ff0000** para el color rojo,  **#000000** para el color negro. 
 El formato rgba que permite añadir un canal alfa que controla el nivel de transparencia,
  **rgba(0,0,0,0.5)** sería para un color negro semi transparente, a un nivel de transparencia del cincuenta porciento.
+
+### Propiedades de texto
+
+Entre las propiedades para dar formato al texto tenemos:
+
+#### Font-size
+Esta propiedad sirve para indicar el tamaño que van a tener los textos dentro del documento, pudiendo tener valores absolutos como 16px y relativos como: 1.2em o 120%.
+
+```css
+.header__title{
+  font-size: 31px;
+}
+```
+
+#### Text-decoration
+
+Es la propiedad para añadir detalles decorativos al texto.
+
+```css
+.post__link{
+  text-decoration: none; /* quita subrayado */
+}
+
+.post__price{
+  text-decoration:line-through; /* agrega una línea horizontal
+  a la mitad del texto  a modo de tachado */
+}
+
+.post__category{
+  text-decoration: underline; /* subraya el texto */
+}
+```
+
+
+
 
 
 ### Estilos de lista
