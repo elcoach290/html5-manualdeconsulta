@@ -657,11 +657,11 @@ La propiedad **justify-content** sirve para alinear a los elementos hijos cuando
 }
 ```
 
-**flex-start:** Alinea elementos al lado izquierdo del contenedor.
-**flex-end:** Alinea elementos al lado derecho del contenedor.
-**center: **Alinea elementos en el centro del contenedor.
-**space-between:** Muestra elementos con la misma distancia entre ellos.
-**space-around:** Muestra elementos con la misma separación alrededor de ellos.
+- **flex-start:** Alinea elementos al lado izquierdo del contenedor.
+- **flex-end:** Alinea elementos al lado derecho del contenedor.
+- **center: **Alinea elementos en el centro del contenedor.
+- **space-between:** Muestra elementos con la misma distancia entre ellos.
+- **space-around:** Muestra elementos con la misma separación alrededor de ellos.
 
 #### Align-items
 Esto define el comportamiento predeterminado de cómo se colocan los elementos hijos a lo largo del eje transversal en la línea actual (por defecto es el eje vertical). Es como la versión de **justify-content** para el eje transversal (perpendicular al eje principal).
@@ -672,11 +672,11 @@ div{
   align-items: flex-star; /* otros valores posibles son: flex-end, center, baseline, stretch */
 }
 ```
-**flex-start:** Alinea elementos hijos a la parte superior del contenedor padre.
-**flex-end:** Alinea elementos hijos a la parte inferior del contenedor padre.
-**center:** Alinea elementos hijos en el centro (verticalmente hablando) del contenedor padre.
-**baseline:** Muestra elementos hijos en la línea base del contenedor padre.
-**stretch:** Elementos hijos se estiran para ajustarse al contenedor padre.
+- **flex-start:** Alinea elementos hijos a la parte superior del contenedor padre.
+- **flex-end:** Alinea elementos hijos a la parte inferior del contenedor padre.
+- **center:** Alinea elementos hijos en el centro (verticalmente hablando) del contenedor padre.
+- **baseline:** Muestra elementos hijos en la línea base del contenedor padre.
+- **stretch:** Elementos hijos se estiran para ajustarse al contenedor padre.
 
 
 #### Flex-direction
@@ -689,10 +689,10 @@ Esto establece el eje principal, definiendo así la dirección en que se colocan
   flex-direction: row; /* otros valores posibles son: row-reverse, column,  column-reverse */
 }
 ```
-**row:** Elementos son colocados en la misma dirección del texto.
-**row-reverse:** Elementos son colocados en la dirección opuesta al texto.
-**column:** Elementos se colocan de arriba hacia abajo.
-**column-reverse:** Elementos se colocan de abajo hacia arriba.
+- **row:** Elementos son colocados en la misma dirección del texto.
+- **row-reverse:** Elementos son colocados en la dirección opuesta al texto.
+- **column:** Elementos se colocan de arriba hacia abajo.
+- **column-reverse:** Elementos se colocan de abajo hacia arriba.
 
 #### Flex-wrap
 
@@ -704,9 +704,9 @@ Por defecto, todos los elementos hijos  intentarán caber en una línea. Puede c
   flex-wrap: nowrap; /* otros valores: wrap, wrap-reverse */
 }
 ```
-**nowrap:** Cada elemento se ajusta en una sola línea.
-**wrap:** los elementos se envuelven alrededor de líneas adicionales.
-**wrap-reverse:** Los elementos se envuelven alrededor de líneas adicionales en reversa.
+- **nowrap:** Cada elemento se ajusta en una sola línea.
+- **wrap:** los elementos se envuelven alrededor de líneas adicionales.
+- **wrap-reverse:** Los elementos se envuelven alrededor de líneas adicionales en reversa.
 
 
 ### Imágenes de Fondo
@@ -736,9 +736,9 @@ body{
 #### Background-attachment
 Esta propiedad sirve para controlar si la imagen de fondo se mueve o permanece fija cuando se hace scroll en la ventana del navegador. 
 
-**Scroll:** Es el valor base y consiste en que la imagen de fondo se mueve con el elemento.
+- **Scroll:** Es el valor base y consiste en que la imagen de fondo se mueve con el elemento.
 
-**Fixed:** Consiste en que la imagen de fondo permanece fija cuando se hace scroll en la ventana del navegador.
+- **Fixed:** Consiste en que la imagen de fondo permanece fija cuando se hace scroll en la ventana del navegador.
 
 ```css
 body {
