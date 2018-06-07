@@ -86,7 +86,7 @@ El Hyper Text Markup Language ( HTML ) es un lenguaje de marcado o etiquetado qu
 ```
 ### Elementos básicos
 
-#### Headings
+#### Titulares (Headings)
 
 Son los encabezados o titulos que usaremos en nuestro documento existen del **h1** al **h6**, siendo el mas importante el **h1** y asi va bajando hasta el **h6** que es el menor importante.
 
@@ -97,7 +97,7 @@ Son los encabezados o titulos que usaremos en nuestro documento existen del **h1
 <h6>El titulo menos importante</h6>
 ```
 
-#### Párrafos
+#### Párrafos (Paragraphs)
 
 Cuando necesitamos escribir parrafos el texto lo colocamos dentro de la etiquetas `<p></p>`
 
@@ -109,7 +109,7 @@ Domina el día. Entonces sigue haciendo eso todos los días.
 </p>
 ```
 
-#### Enlaces
+#### Enlaces (Anchors)
 
 Los enlaces son los que nos van a permitir conectar las paginas de nuestro sitio o conectarlas con otras paginas externas, tambien podemos colocar como destinos de los enlaces imagenes o documentos como pdfs.
 
@@ -148,6 +148,12 @@ Podemos vincular imagenes de distintos tipos en nuestras paginas web para que se
 ```
 
 Requieren de dos atributos, **src** para indicar la ubicacion de la imagen y **alt** que es para indicar un texto alternativo en casos la imagen por algun motivo no se haya descargado, tambien sirve para la accesibilidad, muy importante para los usuarios invidentes. Recordemos que podemos cargar muchos formatos de imagen, como son JPG, PNG y GIF
+
+**TIP:** a las imagenes se les pueñe añadir el atributo **width** y dale un valor númerico para indicar su anchura en pixeles.
+
+```html
+<img src="images/foto.jpg" alt="Foto de Perfil" width="200">
+```
 
 #### Listas
 
