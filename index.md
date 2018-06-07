@@ -798,6 +798,33 @@ Entonces si deseamos una imagen alineada en la parte derecha inferior sería:
 }
 ```
 
+### Transiciones
+
+Para añadir transiciones se usan las siguientes propiedades:
+
+**Transition-property:** Esta propiedad sirve para indicar el nombre de la propiedad que se desea transicionar.
+**Transition-duration:** Esta propiedad sirve para indicar el tiempo que se quiere que dure la transición.
+**Transition-delay:** Esta propiedad sirve para indicar una latencia o retardo para que inicie la transición.
+**Transition-timing-function:** Esta propiedad sirve para indicar si se desea aceleración o un movimiento linear (sin aceleración).
+
+```css
+.btn{
+	background-color: red;
+	color: white;		
+	transition-property: background-color;
+	transition-duration: 200ms;
+	transition-delay: 50ms;
+	transition-timing-function: linear;	
+}
+
+/* básicamente las transiciones para poder ver el cambio de propiedad con transicion se tiene que usar en la pseudoclase hover */
+
+.btn:hover{
+	background-color: black;
+}
+```
+
+
 
 
 
