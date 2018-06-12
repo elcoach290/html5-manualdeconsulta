@@ -524,7 +524,9 @@ El formato rgba que permite añadir un canal alfa que controla el nivel de trans
 Entre las propiedades para dar formato al texto tenemos:
 
 #### Font-size
-Esta propiedad sirve para indicar el tamaño que van a tener los textos dentro del documento, pudiendo tener valores absolutos como 16px y relativos como: 1.2em o 120%.
+
+Esta propiedad sirve para indicar el tamaño que van a tener los textos dentro del documento, 
+pudiendo tener valores absolutos como 16px y relativos como: 1.2em o 120%.
 
 ```css
 .header__title{
@@ -558,19 +560,25 @@ Es la propiedad para añadir detalles decorativos al texto.
 ### Estilos de lista
 
 ### Modelo de caja
+
 Sirve para comprender las diferentes propiedades que afectan al tamaño y disposición de una caja.
 
 #### Content (contenido): 
-Contenido de la caja el cual podría tener un texto, una imagen, u otros elementos, se le puede definir anchura con la propiedad **width** y altura con la propiedad **height**.
+
+Contenido de la caja el cual podría tener un texto, una imagen, u otros elementos, 
+se le puede definir anchura con la propiedad **width** y altura con la propiedad **height**.
 
 ```css
 .box{
 	width: 800px; /* ancho de 800 pixeles */
-	height: 600px; /* de preferencia es mejor no aplicarlo y dejar que lo que va dentro le de la altura con su propio volumen */
+	/* de preferencia es mejor no aplicar height y dejar que lo que 
+	va dentro le de la altura con su propio volumen */
+	height: 600px; 
 }
 ```
 
 #### Padding (relleno):
+
 Es la distancia del contenido de la caja hacia dentro del contenedor.
 ```css
 .box{
@@ -583,11 +591,12 @@ Es la distancia del contenido de la caja hacia dentro del contenedor.
 **TIP:** Si deseas ahorrar líneas de código puedes aplicar esto:
 ```css
 .box{
-	padding: 5px 10px; /* el primero es para el right y left, el segundo es para el top y botton */ 
+	padding: 5px 10px; /* el primero es para el right y left, el segundo es para el top y bottom */ 
 }
 ```
 
 #### Margin (margen):
+
 Es la distancia de la caja hacia afuera del contenedor.
 
 ```css
@@ -610,6 +619,7 @@ Es la distancia de la caja hacia afuera del contenedor.
 ```
 
 #### Border (borde):
+
 Trazo o línea de contorno, podrías usar las propiedades:
 
 ```css
@@ -628,7 +638,9 @@ Trazo o línea de contorno, podrías usar las propiedades:
 }
 ```
 
-**TIP:** Si deseas  que el padding y border respeten el tamaño de la caja, en otras palabras el tamaño de la caja lo defina el width del content, puedes usar esta propiedad:
+**TIP:** Si deseas  que el padding y border respeten el tamaño de la caja,
+ en otras palabras el tamaño de la caja lo defina el width del content, 
+ puedes usar esta propiedad:
 
 ```css
 .box{
@@ -639,7 +651,12 @@ Trazo o línea de contorno, podrías usar las propiedades:
 ### Propiedades flexbox
 
 #### Display
-A esta propiedad le asignamos un valor **flex** o **flex-inline** (es lo menos común) dependiendo de la necesidad en tu diagramación. Al darle este valor permite disponer de un modo más fácil a todos sus hijos directos. Por defecto lo que va pasar es que todos sus hijos se acomoden de forma horizontal uno al lado del otro.
+
+A esta propiedad le asignamos un valor **flex** o **flex-inline** (es lo menos común) 
+dependiendo de la necesidad en tu diagramación. 
+Al darle este valor permite disponer de un modo más fácil a todos sus hijos directos.
+Por defecto lo que va pasar es que todos sus hijos se acomoden de forma horizontal 
+uno al lado del otro.
 
 ```css
 .menu{
@@ -648,7 +665,10 @@ A esta propiedad le asignamos un valor **flex** o **flex-inline** (es lo menos c
 ```
 
 #### Justify-content
-La propiedad **justify-content** sirve para alinear a los elementos hijos cuando estos no usan todo el espacio disponible en el eje principal (por defecto es el horizontal).
+
+La propiedad **justify-content** sirve para alinear a los elementos hijos cuando 
+estos no usan todo el espacio disponible en el eje principal 
+(por defecto es el horizontal).
 
 ```css
 .menu{
@@ -664,7 +684,10 @@ La propiedad **justify-content** sirve para alinear a los elementos hijos cuando
 - **space-around:** Muestra elementos con la misma separación alrededor de ellos.
 
 #### Align-items
-Esto define el comportamiento predeterminado de cómo se colocan los elementos hijos a lo largo del eje transversal en la línea actual (por defecto es el eje vertical). Es como la versión de **justify-content** para el eje transversal (perpendicular al eje principal).
+
+Esto define el comportamiento predeterminado de cómo se colocan los elementos hijos a lo largo
+del eje transversal en la línea actual (por defecto es el eje vertical). 
+Es como la versión de **justify-content** para el eje transversal (perpendicular al eje principal).
 
 ```css
 div{
@@ -681,7 +704,8 @@ div{
 
 #### Flex-direction
 
-Esto establece el eje principal, definiendo así la dirección en que se colocan los elementos hijos  en el contenedor padre.
+Esto establece el eje principal, definiendo así la dirección en que se colocan los 
+elementos hijos  en el contenedor padre.
 
 ```css
 .menu{
@@ -696,7 +720,9 @@ Esto establece el eje principal, definiendo así la dirección en que se colocan
 
 #### Flex-wrap
 
-Por defecto, todos los elementos hijos  intentarán caber en una línea. Puede cambiar eso y permitir que pasen a una segunda fila (si fuera necesario) con esta propiedad.
+Por defecto, todos los elementos hijos  intentarán caber en una línea. 
+Puede cambiar eso y permitir que pasen a una segunda fila (si fuera necesario) 
+con esta propiedad.
 
 ```css
 .posts{
@@ -712,7 +738,10 @@ Por defecto, todos los elementos hijos  intentarán caber en una línea. Puede c
 ### Imágenes de Fondo
 
 #### Background-image
-Sirve para establecer la imagen de fondo de un elemento. La imagen se muestra en la zona que ocupan el contenido y el relleno del elemento, justo hasta su borde.
+
+Sirve para establecer la imagen de fondo de un elemento. 
+La imagen se muestra en la zona que ocupan el contenido y el relleno del elemento,
+justo hasta su borde.
 
 Para indicar la imagen que se muestra como fondo de un elemento, se utiliza una URL. 
 
@@ -723,7 +752,9 @@ body{
 ```
 
 #### Background-size
-Esta propiedad se utiliza para determinar el tamaño de la imagen de fondo, estableciendo ancho y alto de la misma.
+
+Esta propiedad se utiliza para determinar el tamaño de la imagen de fondo, 
+estableciendo ancho y alto de la misma.
 
 ```css
 body{
@@ -731,10 +762,13 @@ body{
   Background-size: 300px 200px; /* otros valores: 50% 50%, cover */
 }
 ```
-**TIP:** si se le asigna el valor **cover** la imagen cubrirá todo el area disponible, muy util para cuando queremos que se adapte a diferentest tamaños de pantalla o dispositivo.
+**TIP:** si se le asigna el valor **cover** la imagen cubrirá todo el area disponible, 
+muy util para cuando queremos que se adapte a diferentest tamaños de pantalla o dispositivo.
 
 #### Background-attachment
-Esta propiedad sirve para controlar si la imagen de fondo se mueve o permanece fija cuando se hace scroll en la ventana del navegador. 
+
+Esta propiedad sirve para controlar si la imagen de fondo se mueve o permanece fija cuando se 
+hace scroll en la ventana del navegador. 
 
 - **Scroll:** Es el valor base y consiste en que la imagen de fondo se mueve con el elemento.
 
@@ -748,10 +782,14 @@ body {
 ```
 
 #### Background-repeat
-Esta propiedad sirve para controlar el tipo de repetición de las imágenes de fondo, si se repite o no y las direcciones en las que se repite. Se pueden usar solo uno de los siguientes valores permitidos a la vez: repeat, repeat-x, 
-repeat-y ó no-repeat.
 
-Por defecto, si la imagen de fondo que se establece con la propiedad background-image es más pequeña que el sitio disponible, el navegador repite la imagen en todas las direcciones hasta cubrir completamente la superficie del elemento.
+Esta propiedad sirve para controlar el tipo de repetición de las imágenes de fondo, 
+si se repite o no y las direcciones en las que se repite. Se pueden usar solo uno de 
+los siguientes valores permitidos a la vez: repeat, repeat-x, repeat-y ó no-repeat.
+
+Por defecto, si la imagen de fondo que se establece con la propiedad background-image es 
+más pequeña que el sitio disponible, el navegador repite la imagen en todas 
+las direcciones hasta cubrir completamente la superficie del elemento.
 ```css
 body {
   background-image: url("../images/patron.jpg");
@@ -760,7 +798,8 @@ body {
 ```
 
 
-Los valores repeat-x y repeat-y permiten repetir la imagen de fondo sólo en una dirección (horizontal o vertical).
+Los valores repeat-x y repeat-y permiten repetir la imagen de fondo sólo en una 
+dirección (horizontal o vertical).
 ```css
 body {
   background-image: url("../images/patron.jpg");
@@ -769,6 +808,7 @@ body {
 ```
 
 #### Background-position
+
 Esta propiedad se utiliza para controlar la posición de las imágenes de fondo.
 
 ```css
@@ -778,7 +818,8 @@ body{
 	background-position: 10px 30px;
 }
 ```
-La explicación de los valores permitidos para esta propiedad es compleja debido a su gran flexibilidad. Son dos valores separados por un espacio.
+La explicación de los valores permitidos para esta propiedad es compleja debido a su gran flexibilidad. 
+Son dos valores separados por un espacio.
 
 - En el primer valor se puede escribrir: un porcentaje,  medida exacta en pixeles, left, center ó right.
 - En el segundo valor se puede escribir: un porcentaje, medida exacta en pixeles, top, center ó bottom.
@@ -805,7 +846,8 @@ Para añadir transiciones se usan las siguientes propiedades:
 - **Transition-property:** Esta propiedad sirve para indicar el nombre de la propiedad que se desea transicionar.
 - **Transition-duration:** Esta propiedad sirve para indicar el tiempo que se quiere que dure la transición.
 - **Transition-delay:** Esta propiedad sirve para indicar una latencia o retardo para que inicie la transición.
-- **Transition-timing-function:** Esta propiedad sirve para indicar si se desea aceleración o un movimiento linear (sin aceleración).
+- **Transition-timing-function:** Esta propiedad sirve para indicar si se desea aceleración o un 
+movimiento linear (sin aceleración).
 
 ```css
 .btn{
@@ -817,7 +859,8 @@ Para añadir transiciones se usan las siguientes propiedades:
 	transition-timing-function: linear;	
 }
 
-/* básicamente las transiciones para poder ver el cambio de propiedad con transicion se tiene que usar en la pseudoclase hover */
+/* básicamente las transiciones para poder ver el cambio de propiedad con 
+transicion se tiene que usar en la pseudoclase hover */
 
 .btn:hover{
 	background-color: black;
