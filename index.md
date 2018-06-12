@@ -650,7 +650,7 @@ Trazo o línea de contorno, podrías usar las propiedades:
 	border-radius: 5px; /* radio del borde */
 }
 ```
-**TIP:** si deseas ahorrar escribiendo todas las declaraciones puedes usar este __shorthand__
+**TIP:** si deseas ahorrar escritura en el border-style, border-width y border-color puedes usar este __shorthand__ (atajo de escritura)
 
 ```css
 .box{
