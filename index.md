@@ -541,6 +541,15 @@ pudiendo tener valores absolutos como 16px y relativos como: 1.2em o 120%.
 .header__title{
   font-size: 31px;
 }
+
+.footer{
+	font-size: 0.8em; /* equivale a 12.8 pixeles (0.8*16) si el tamaño de letra base es 16 pixeles */
+}
+
+.the_title{
+	font-size: 300%; /* equivale a 48px (16*3) si el tamaño de letra base es de 16px */
+}
+
 ```
 
 #### Text-decoration
