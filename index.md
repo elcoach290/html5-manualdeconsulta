@@ -581,6 +581,8 @@ a{
 
 Sirve para comprender las diferentes propiedades que afectan al tamaño y disposición de una caja.
 
+![Modelo de caja](/images/boxmodel.gif)
+
 #### Content (contenido): 
 
 Contenido de la caja el cual podría tener un texto, una imagen, u otros elementos, 
