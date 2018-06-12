@@ -519,6 +519,15 @@ También se puede usar el formato hexadecimal siendo **#ff0000** para el color r
 El formato rgba que permite añadir un canal alfa que controla el nivel de transparencia,
  **rgba(0,0,0,0.5)** sería para un color negro semi transparente, a un nivel de transparencia del cincuenta porciento.
 
+ ```css
+ .title{
+	color: orange; /* aplicamos color naranja al texto */
+	border-bottom: solid 5px #ff9900; /* aplicamos un borde inferior de color naranja */
+	background-color: rgba(0,0,0,0.8); /* aplicamos color negro
+										con ochenta porciento de opacidad al fondo */
+}
+ ```
+
 ### Propiedades de texto
 
 Entre las propiedades para dar formato al texto tenemos:
