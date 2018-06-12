@@ -65,6 +65,7 @@ Documento digital que permite estructurar informacion ( textos, hipertextos ) y 
 Es la url o direccion principal en internet donde se encuentra un sitio web.
 
 ### Hosting
+
 Espacio en un servidor web para guardar los archivos de un sitio web, normalmente vinculado a un **dominio**.
 
 ## Hyper Text Markup Language
@@ -412,9 +413,11 @@ Se usa para agrupar otros elementos con fines de adaptar la disposición de esto
 ```
 
 ## Elementos Multimedia
+
 Con HTML5 ahora podemos incluir videos y audio.
 
 ### Video
+
 De esta forma podríamos incluir un video dentro de nuestro sitio web
 ```html
 <video src="videos/intro.mp4" controls></video>
@@ -429,6 +432,7 @@ El atributo src es para indicar la ubicación del video mientras el atributo con
 * controls: define si los controles de video deben mostrarse o no (pausa, play)
 
 ### Audio
+
 De esta forma podríamos incluir un audio o sonido dentro de nuestro sitio web
 ```html
 <video src="audios/sound.mp4" controls></video>
@@ -470,15 +474,35 @@ Son los campos de entrada de datos, existen varios tipos entre ellos tenemos: te
 <!-- Este tipo de campo para cuando tenemos varias alternativas 
 a selecionar pero solo una podemos marcar -->
 <input type="radio">
+<!-- Este tipo de campo para cuando tenemos que marcar una o varias alternativas de un conjunto de opciones -->
+<input type="checkbox">
+<!-- Este tipo de campo para cuando tenemos que ingresar número, algunos navegadores pueden mostrar unas flechas para aumentar o reducir el valor -->
+<input type="number">
 ```
 ### Textarea
+
 Este elemento es para cuando requerimos ingresar un texto multilínea podría ser en caso de escribir un comentario o consulta
 
 ```html
 <textarea></textarea>	
 ```
 
+### Select
+
+Este elemento es para cuando requerimos seleccionar una opción (usando la etiqueta option) de un conjunto de opciones.
+
+```html
+<select>
+	<option value="0">Seleccione una Ciudad</option>
+	<option value="1">Arequipa</option>
+	<option value="2">Cuzco</option>
+	<option value="3">Lima</option>
+	<option value="4">Trujillo</option>
+</select>	
+```
+
 ### Button
+
 Este elemento nos va servir básicamente para poder envíar el formulario aunque también podría enviarse presionando la tecla **ENTER** debe tener un atributo **_type_** con el valor de **_submit_**
 
 ```html
