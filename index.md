@@ -557,8 +557,8 @@ pudiendo tener valores absolutos como 16px y relativos como: 1.2em o 120%.
 Es la propiedad para añadir detalles decorativos al texto.
 
 ```css
-.post__link{
-  text-decoration: none; /* quita subrayado */
+a{
+  text-decoration: none; /* quita subrayado a todos los enlaces de la página, pues estos vienen con un subrayado por defecto */
 }
 
 .post__price{
