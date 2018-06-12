@@ -931,7 +931,7 @@ Las animaciones requieren el uso de la regla **keyframes** a la cual se le asign
 
 .wheel{
 	animation-name: rotacion; /* nombre de la regla keyframes */
-	animation-duration: 300ms; /* tiempo que va durar la animación *
+	animation-duration: 300ms; /* tiempo que va durar la animación */
 	animation-iteration-count: infinite; /* las veces que se va repetir la animación podría ser una vez, dos, tres o de forma infinita */
 	animation-timing-function: linear; /* para un movimiento con velocidad constante o linear */
 }
