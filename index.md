@@ -911,7 +911,32 @@ transicion se tiene que usar en la pseudoclase hover */
 }
 ```
 
+**TIP:** Las propiedades __transicionables__ son aquellas que tienen valores númericos, por ejemplo: margin, padding, background-color, color, width, height, transform, etc.
 
+### Animaciones
+
+Las animaciones requieren el uso de la regla **keyframes** a la cual se le asigna un nombre y donde se indican las propiedades a interpolar o animar y estás se agrupan en dos o mas grupos dependiendo de cuantos requiera la animación, estos grupos se le asigna un valor porcentual para indicar en que punto de la animación va tener dichas propiedades el elemento a animar. Una vez creada la regla se le asigna al elemento usando la propiedad **animation-name**, **animation-duration**. Otras propiedades opcionales son **animation-iteration-count**, **animation-direction**, **animation-timing-function**, **animation-fill-mode** y **animation-play-state**.
+
+```css
+/* se crea la regla keyframes */
+@keyframes rotacion{
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+/* se asigna la regla al elemento que se desea animar */
+
+.wheel{
+	animation-name: rotacion; /* nombre de la regla keyframes */
+	animation-duration: 300ms; /* tiempo que va durar la animación *
+	animation-iteration-count: infinite; /* las veces que se va repetir la animación podría ser una vez, dos, tres o de forma infinita */
+	animation-timing-function: linear; /* para un movimiento con velocidad constante o linear */
+}
+
+```
 
 
 
