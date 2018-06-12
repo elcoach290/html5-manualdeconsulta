@@ -523,7 +523,8 @@ El formato rgba que permite añadir un canal alfa que controla el nivel de trans
  .title{
 	color: orange; /* aplicamos color naranja al texto */
 	border-bottom: solid 5px #ff9900; /* aplicamos un borde inferior de color naranja */
-	background-color: rgba(0,0,0,0.8); /* aplicamos color negro con ochenta porciento de opacidad al fondo */
+	background-color: rgba(0,0,0,0.8); /* aplicamos color negro
+	con ochenta porciento de opacidad al fondo */
 }
  ```
 
