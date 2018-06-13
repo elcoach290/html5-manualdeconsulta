@@ -576,6 +576,36 @@ pudiendo tener valores absolutos como 16px y relativos como: 1.2em o 120%.
 
 ```
 
+#### Text-align
+
+Sirve alinear el contenido en línea de los bloques, pudiendo ser estos textos, __elementos inline__ y __elementos inline-block__, por ejemplo: enlaces, imágenes, etc.
+
+```css
+.intro{
+	text-align: center; /* otros valores posibles son: left, right, center, justify */
+}
+```
+
+- **left:** alineación a la izquierda (por defecto).
+- **center:** alineación al centro.
+- **right:** alineación a la derecha.
+- **justify:** alineación justificada de textos.
+
+#### Line-height
+
+Sirve para precisar el alto que van a tener las líneas de texto o el interlineado. Los valores pueden ser absolutos o relativos (se recomiendan relativos).
+
+```css
+p{
+	line-height: 1.3; /* equivale al 130% de la altura del texto */
+}
+
+h1, h2, h3 {
+	line-height: 120%; /* es el porcentaje de la altura del texto */
+}
+
+```
+
 #### Text-decoration
 
 Es la propiedad para añadir detalles decorativos al texto.
