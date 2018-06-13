@@ -677,7 +677,7 @@ Es la distancia de la caja hacia afuera del contenedor.
 .box{
 	margin-right: 5px; /* distancia hacia el lado derecho */
 	margin-left: 5px; /* distancia hacia el lado izquierdo */
-	margin-top:5px; /* distancia hacia arriba */
+	margin-top: 5px; /* distancia hacia arriba */
 	margin-botton: 5px; /* distancia hacia abajo */
 }
 ```
