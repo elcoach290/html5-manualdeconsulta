@@ -2,7 +2,7 @@
 
 ## Indice
 
-- [Conceptos Basicos](#conceptos-basicos)
+- [Conceptos Básicos](#conceptos-básicos)
 	- [Carpeta](#carpeta)
 	- [Archivo](#archivo)
 	- [Sitio Web](#sitio-web)
@@ -43,7 +43,7 @@
 	- [Transiciones](#transiciones)
 	- [Animaciones](#animaciones)
 
-## Conceptos Basicos
+## Conceptos Básicos
 
 ### Carpeta
 
