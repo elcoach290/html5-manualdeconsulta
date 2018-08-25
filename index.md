@@ -33,6 +33,7 @@
 	- [Elementos de formulario](#elementos-de-formulario)
 
 - [Estilos CSS](#estilos-css)
+	- [Vinculando una hoja de estilos](#vinculando-una-hoja-de-estilos)
 	- [Colores](#colores)
 	- [Estilos de Texto](#propiedades_de_texto)
 	- [Estilos de lista](#estilos-de-lista)
@@ -520,6 +521,16 @@ Este elemento nos va servir básicamente para poder envíar el formulario aunque
 
 Para poder dar formato a nuestros documentos HTML vamos a usar el Lenguaje CSS el cual nos permitirá personalizar colores, tipografías, espaciados, diagramación etc.
 
+### Vinculando una hoja de estilos
+
+Para vincular una hoja de estilos debemos incluir dentro del elemento **head** el elemento **link** que nos va permitir conectar ambos archivos ( el html con el css ).
+
+```html
+<head>
+	<link href="css/style.css" rel="stylesheet"> <!-- ambos atributos son obligatorios -->
+</head>
+```
+
 Antes de iniciar con las reglas css  hay que aprender a colocar comentarios dentro de tu hoja de estilos para que te sirvan de recordatorios como notitas donde escribes un texto que te ayude a recordar porqué hiciste algo o para que utilizaste tal propiedad, y además se utilizarán constantemente en los ejemplos. Nunca te olvides de cerrar los comentarios:
 
 - Inicio de comentario: `/*`
@@ -832,7 +843,7 @@ estableciendo ancho y alto de la misma.
 
 ```css
 body{
-  background-image: url("images/fondo.jpg");
+  background-image: url("../images/fondo.jpg");
   Background-size: 300px 200px; /* otros valores: 50% 50%, cover */
 }
 ```
