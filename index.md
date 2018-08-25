@@ -32,15 +32,15 @@
 	- [Elementos Multimedia](#elementos-multimedia)
 	- [Elementos de formulario](#elementos-de-formulario)
 
-- [Estilos CSS](#Estilos_CSS)
-	- [Colores](#Colores)
-	- [Estilos de Texto](#Propiedades_de_texto)
-	- [Estilos de lista](#Estilos_de_lista)
-	- [Modelo de Caja](#Modelo_de_caja)
-	- [Propiedades Flexbox](#Propiedades_flexbox)
-	- [Imagenes de fondo](#Imagenes_de_fondo)
-	- [Transiciones](#Transiciones)
-	- [Animaciones](#Animaciones)
+- [Estilos CSS](#estilos-css)
+	- [Colores](#colores)
+	- [Estilos de Texto](#propiedades_de_texto)
+	- [Estilos de lista](#estilos-de-lista)
+	- [Modelo de Caja](#modelo-de-caja)
+	- [Propiedades Flexbox](#propiedades-flexbox)
+	- [Imagenes de fondo](#imagenes-de-fondo)
+	- [Transiciones](#transiciones)
+	- [Animaciones](#animaciones)
 
 ## Conceptos Basicos
 
