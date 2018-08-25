@@ -278,7 +278,7 @@ Para indicar el nombre del autor se puede usar la etiqueta `<cite></cite>`y si s
 </blockquote>
 ```
 
-## Agrupadores semanticos
+## Agrupadores semánticos
 
 Estos elementos propios de HTML5 ayudan a los navegadores y crawlers a entender el significado e intención de las partes del código de una web.
 Podemos no utilizarlos, pero hacerlo ayuda a que nuestra página sea entendida con mayor facilidad.
