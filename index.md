@@ -6,7 +6,7 @@
 	- [Carpeta](#carpeta)
 	- [Archivo](#archivo)
 	- [Sitio Web](#sitio-web)
-	- [Pagina Web](#pagina-web)
+	- [Página Web](#pagina-web)
 	- [Dominio](#dominio)
 	- [Hosting](#hosting)
 
@@ -14,9 +14,9 @@
 	- [Estructura básica de todo documento HTML5](#estructura-basica-de-todo-documento-html5)
 	- [Elementos básicos](#elementos-básicos)
 		- [Titulares](#titulares-headings)
-		- [Parrafos](#parrafos)
+		- [Párrafos](#parrafos)
 		- [Enlaces](#enlaces-anchors)
-		- [Imagenes](#imagenes)
+		- [Imágenes](#imágenes)
 		- [Listas](#listas)
 		- [Tablas](#tablas)
 		- [Otras etiquetas](#otras-etiquetas)
@@ -38,7 +38,7 @@
 	- [Estilos de lista](#estilos-de-lista)
 	- [Modelo de Caja](#modelo-de-caja)
 	- [Propiedades Flexbox](#propiedades-flexbox)
-	- [Imagenes de fondo](#imagenes-de-fondo)
+	- [Imágenes de fondo](#imágenes-de-fondo)
 	- [Transiciones](#transiciones)
 	- [Animaciones](#animaciones)
 
@@ -50,7 +50,7 @@ Contenedor de archivos que sirve para poder mantenerlos organizados, se recomien
 
 ### Archivo
 
-Conjunto de informacion digital que puede almacenarse en una computadora, existen diferentes tipos de archivos como las imagenes, videos, audios, texto, etc, y van a requerir una extension que los identifique, como ejemplos tenemos: intro.mp4, musica.mp3, banner.jpg, etc.
+Conjunto de informacion digital que puede almacenarse en una computadora, existen diferentes tipos de archivos como las imágenes, videos, audios, texto, etc, y van a requerir una extension que los identifique, como ejemplos tenemos: intro.mp4, musica.mp3, banner.jpg, etc.
 
 ### Sitio Web
 
@@ -58,7 +58,7 @@ Conjunto de páginas web interconectadas con un proposito determinado, ejemplo: 
 
 ### Pagina Web
 
-Documento digital que permite estructurar informacion ( textos, hipertextos ) y contenido multimedia ( video, audio, imagenes, etc )
+Documento digital que permite estructurar informacion ( textos, hipertextos ) y contenido multimedia ( video, audio, imágenes, etc )
 
 ### Dominio
 
@@ -124,7 +124,7 @@ Domina el día. Entonces sigue haciendo eso todos los días.
 
 #### Enlaces (Anchors)
 
-Los enlaces son los que nos van a permitir conectar las paginas de nuestro sitio o conectarlas con otras paginas externas, tambien podemos colocar como destinos de los enlaces imagenes o documentos como pdfs.
+Los enlaces son los que nos van a permitir conectar las paginas de nuestro sitio o conectarlas con otras paginas externas, tambien podemos colocar como destinos de los enlaces imágenes o documentos como pdfs.
 
 ```html
 <!-- enlace a la pagina home del sitio -->
@@ -152,9 +152,9 @@ Los enlaces son los que nos van a permitir conectar las paginas de nuestro sitio
 </a>
 ``` 
 
-#### Imagenes
+#### Imágenes
 
-Podemos vincular imagenes de distintos tipos en nuestras paginas web para que se puedan visualizar al momento de visualizarse de la siguiente manera:
+Podemos vincular imágenes de distintos tipos en nuestras paginas web para que se puedan visualizar al momento de visualizarse de la siguiente manera:
 
 ```html
 <img src="images/foto.jpg" alt="Foto de Perfil">
@@ -162,7 +162,7 @@ Podemos vincular imagenes de distintos tipos en nuestras paginas web para que se
 
 Requieren de dos atributos, **src** para indicar la ubicacion de la imagen y **alt** que es para indicar un texto alternativo en casos la imagen por algun motivo no se haya descargado, tambien sirve para la accesibilidad, muy importante para los usuarios invidentes. Recordemos que podemos cargar muchos formatos de imagen, como son JPG, PNG y GIF
 
-**TIP:** A las imagenes se les pueñe añadir el atributo **width** y dale un valor númerico para indicar su anchura en pixeles, pero se recomienda no usar imagenes muy grandes pues tu página web pesaría mucho, en ese caso se podría editar con Photoshop.
+**TIP:** A las imágenes se les pueñe añadir el atributo **width** y dale un valor númerico para indicar su anchura en pixeles, pero se recomienda no usar imágenes muy grandes pues tu página web pesaría mucho, en ese caso se podría editar con Photoshop.
 
 ```html
 <img src="images/foto.jpg" alt="Foto de Perfil" width="200">
@@ -380,7 +380,7 @@ Se usa para envolver información que habla sobre un tema en particular o un are
 
 ### Figure
 
-Se usa para envolver imágenes, gráficos o fragmentos de código, pueden incluir la etiqueta `<figcaption></figcaption>`para añadirle un título o descripción. Al incluir las imagenes dentro de un elemento este la hace reubicable e independiente pudiendo localizarse en cualquier parte de la página sin afectar el esquema del documento.
+Se usa para envolver imágenes, gráficos o fragmentos de código, pueden incluir la etiqueta `<figcaption></figcaption>`para añadirle un título o descripción. Al incluir las imágenes dentro de un elemento este la hace reubicable e independiente pudiendo localizarse en cualquier parte de la página sin afectar el esquema del documento.
 
 ```html
 <figure>
@@ -832,7 +832,7 @@ estableciendo ancho y alto de la misma.
 
 ```css
 body{
-  background-image: url("imagenes/fondo.jpg");
+  background-image: url("images/fondo.jpg");
   Background-size: 300px 200px; /* otros valores: 50% 50%, cover */
 }
 ```
