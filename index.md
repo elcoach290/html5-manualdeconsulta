@@ -13,6 +13,7 @@
 - [Hyper Text Markup Language](#hyper-text-markup-language)	
 	- [Estructura básica de todo documento HTML5](#estructura-basica-de-todo-documento-html5)
 	- [Elementos básicos](#elementos-básicos)
+		- [Comentarios](#comentarios)
 		- [Titulares](#titulares-headings)
 		- [Párrafos](#parrafos)
 		- [Enlaces](#enlaces-anchors)
@@ -72,6 +73,8 @@ Espacio en un servidor web para guardar los archivos de un sitio web, normalment
 ## Hyper Text Markup Language
 
 El Hyper Text Markup Language ( HTML ) es un lenguaje de marcado o etiquetado que sirve para estructurar la información dentro de una página web, mediante las etiquetas vamos a poder indicar si un texto es un título o un párrafo, si deseamos tener un listado de cierta información también se tiene una etiqueta para este fin.
+
+### Comentarios
 
 Antes de iniciar con los elementos básicos del lenguaje hay que aprender a colocar comentarios dentro de tu código para que te sirvan de recordatorios como notitas donde escribes un texto que te ayude a recordar algún concepto o para que utilizaste tal etiqueta, y además se utilizarán constantemente en los ejemplos.
 
@@ -155,7 +158,7 @@ Los enlaces son los que nos van a permitir conectar las paginas de nuestro sitio
 
 #### Imágenes
 
-Podemos vincular imágenes de distintos tipos en nuestras paginas web para que se puedan visualizar al momento de visualizarse de la siguiente manera:
+Podemos vincular imágenes de distintos tipos en nuestras páginas web usando el elemento **img**:
 
 ```html
 <img src="images/foto.jpg" alt="Foto de Perfil">
