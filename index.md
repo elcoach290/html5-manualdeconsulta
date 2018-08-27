@@ -6,7 +6,7 @@
 	- [Carpeta](#carpeta)
 	- [Archivo](#archivo)
 	- [Sitio Web](#sitio-web)
-	- [Página Web](#pagina-web)
+	- [Página Web](#página-web)
 	- [Dominio](#dominio)
 	- [Hosting](#hosting)
 
@@ -58,7 +58,7 @@ Conjunto de informacion digital que puede almacenarse en una computadora, existe
 
 Conjunto de páginas web interconectadas con un proposito determinado, ejemplo: Sitio Web de Nike, Sitio Web del Poder Judicial, etc.
 
-### Pagina Web
+### Página Web
 
 Documento digital que permite estructurar informacion ( textos, hipertextos ) y contenido multimedia ( video, audio, imágenes, etc )
 
@@ -128,10 +128,10 @@ Domina el día. Entonces sigue haciendo eso todos los días.
 
 #### Enlaces (Anchors)
 
-Los enlaces son los que nos van a permitir conectar las paginas de nuestro sitio o conectarlas con otras paginas externas, tambien podemos colocar como destinos de los enlaces imágenes o documentos como pdfs.
+Los enlaces son los que nos van a permitir conectar las páginas de nuestro sitio o conectarlas con otras páginas externas, tambien podemos colocar como destinos de los enlaces imágenes o documentos como pdfs.
 
 ```html
-<!-- enlace a la pagina home del sitio -->
+<!-- enlace a la página home del sitio -->
 <a href="index.html">Ir al Home</a>
 <!-- enlace a un id específico dentro de una web -->
 <a href="#id-a-visitar">Ir a sección</a> <!-- en la página actual -->
@@ -304,7 +304,7 @@ Para envolver a la lista de enlaces de navegacion de un sitio web.
 
 ### Header
 
-Para envolver a los elementos de la cabecera de una pagina web o seccion, pudiendo ser estos el `<h1></h1>` y el `<nav></nav>`.
+Para envolver a los elementos de la cabecera de una página web o seccion, pudiendo ser estos el `<h1></h1>` y el `<nav></nav>`.
 
 ```html
 <header>
@@ -339,7 +339,7 @@ Dentro del elemento **main** irá todo el contenido principal de la página web.
 
 ### Footer
 
-Representa al pie de la página o sección, normalmente van datos de contacto, enlaces a otras paginas de navegacion o enlaces a las redes sociales.
+Representa al pie de la página o sección, normalmente van datos de contacto, enlaces a otras páginas de navegacion o enlaces a las redes sociales.
 
 ```html
 <footer>
