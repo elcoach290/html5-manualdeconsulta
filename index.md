@@ -128,7 +128,7 @@ Domina el día. Entonces sigue haciendo eso todos los días.
 
 #### Enlaces (Anchors)
 
-Los enlaces son los que nos van a permitir conectar las páginas de nuestro sitio o conectarlas con otras páginas externas, tambien podemos colocar como destinos de los enlaces imágenes o documentos como pdfs.
+Los enlaces nos van a permitir conectar una página web  con otra, la página destino puede ser del mismo sitio o de otro, también podemos colocar como destinos de los enlaces imágenes o documentos como pdfs. Normalmente dentro del enlace va un texto pero también podría ser una imagen.
 
 ```html
 <!-- enlace a la página home del sitio -->
