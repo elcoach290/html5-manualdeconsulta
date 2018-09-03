@@ -15,7 +15,7 @@
 	- [Elementos básicos](#elementos-básicos)
 		- [Comentarios](#comentarios)
 		- [Titulares](#titulares-headings)
-		- [Párrafos](#parrafos)
+		- [Párrafos](#párrafos)
 		- [Enlaces](#enlaces-anchors)
 		- [Imágenes](#imágenes)
 		- [Listas](#listas)
@@ -116,7 +116,7 @@ Son los encabezados o títulos que usaremos en nuestro documento existen del **h
 
 #### Párrafos (Paragraphs)
 
-Cuando necesitamos escribir parrafos el texto lo colocamos dentro de la etiquetas `<p></p>`
+Cuando necesitamos escribir párrafos el texto lo colocamos dentro de la etiquetas `<p></p>`
 
 ```html
 <p>Todo lo que necesitas para lograr tus objetivos ya está en ti.</p>
@@ -213,7 +213,7 @@ Es para mostras datos tabulares o datos extraido mediante alguna consulta a una 
 <table>
 	<thead>
 		<tr>
-			<td>Codigo</td>
+			<td>Código</td>
 			<td>Nombre</td>
 			<td>Area</td>
 			<td>Cargo</td>
