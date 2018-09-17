@@ -473,7 +473,7 @@ Son los campos de entrada de datos, existen varios tipos entre ellos tenemos: te
 ```html
 <!-- Este campo es para ingreso de textos cortos de una sola línea -->
 <input type="text">
-<!-- Este campo es para ingreo de correos electrónicos -->
+<!-- Este campo es para ingreso de correos electrónicos -->
 <input type="email">
 <!-- Este tipo de campo para cuando tenemos varias alternativas 
 a selecionar pero solo una podemos marcar -->
