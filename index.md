@@ -244,6 +244,17 @@ Es para mostras datos tabulares o datos extraido mediante alguna consulta a una 
 
 #### Otras etiquetas
 
+##### Br
+
+Se usa para romper la línea, en otras palabras forzar el cambio de línea cuando se quiere un texto debajo de otro.
+
+```html
+<h1>El Pez <br> Espada </h1> <!-- la palabra espada pasará
+a una segunda línea -->
+```
+
+**TIP:** No es bueno abusar de esta etiqueta para agregar espaciados pues esto se puede controlar con css.
+
 ##### Strong
 
 Nos sirve para indicar que un texto o palabra es importante:
