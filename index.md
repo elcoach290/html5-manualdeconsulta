@@ -645,6 +645,50 @@ a{
 
 ### Estilos de lista
 
+Las listas tiene propiedades que permite cambiar el aspecto de las viñetas la numeración.
+
+#### List-style-type
+
+Esta propiedad permite cambiar la viñeta o numeración de una lista ordenada o desordenada.
+
+```css
+ul{
+	list-style-type: none; /* quita la viñeta */
+}
+```
+Otros valores que puede aceptar la propiedad son: disc, circle, square, decimal, decimal-leading-zero, lower-roman, upper-roman, lower-greek, lower-latin, upper-latin, armenian, georgian, lower-alpha, upper-alpha. Te sugiero que los pruebes para que veas los resultados.
+
+#### List-style-position
+
+Esta propiedad controla la ubicación de la viñeta con respecto al elemento de la lista.
+
+```css
+ul{
+	list-style-position: inside; /* coloca la viñeta
+	dentro del elemento */
+}
+```
+
+#### List-style-image
+
+Esta propiedad permite colocar una imagen en vez de viñeta o numeración.
+
+```css
+ul{
+	list-style-image: url("../images/diamond.png");
+}
+```
+Por defecto el valor es **outside** fuera del elemento de la lista.
+
+**TIP:** la propiedad **list-style** permite resumir las tres propiedades en una sola:
+
+```css
+ul{
+	list-style: square inside; /* viñeta cuadrada y dentro del elemento */
+}
+```
+
+
 ### Modelo de caja
 
 Sirve para comprender las diferentes propiedades que afectan al tamaño y disposición de una caja.
