@@ -824,7 +824,7 @@ Es como la versión de **justify-content** para el eje transversal (perpendicula
 ```css
 div{
   display: flex;
-  align-items: flex-star; /* otros valores posibles son: flex-end, center, baseline, stretch */
+  align-items: flex-start; /* otros valores posibles son: flex-end, center, baseline, stretch */
 }
 ```
 - **flex-start:** Alinea elementos hijos a la parte superior del contenedor padre.
