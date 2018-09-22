@@ -673,7 +673,7 @@ Es la distancia del contenido de la caja hacia dentro del contenedor.
 	padding-right: 5px; /* distancia hacia el lado derecho. */
 	padding-left: 5px; /* distancia hacia el lado izquierdo. */
 	padding-top:5px; /* distancia hacia arriba. */
-	padding-botton: 5px; /* distancia hacia abajo. */
+	padding-bottom: 5px; /* distancia hacia abajo. */
 }
 ```
 **TIP:** Si deseas ahorrar líneas de código puedes aplicar esto:
