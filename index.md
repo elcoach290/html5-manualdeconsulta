@@ -12,8 +12,10 @@
 
 - [Hyper Text Markup Language](#hyper-text-markup-language)	
 	- [Estructura básica de todo documento HTML5](#estructura-basica-de-todo-documento-html5)
+	- [Comentarios](#comentarios)
+	- [Elementos](#elementos)
+	- [Atributos](#atributos)
 	- [Elementos básicos](#elementos-básicos)
-		- [Comentarios](#comentarios)
 		- [Titulares](#titulares-headings)
 		- [Párrafos](#párrafos)
 		- [Enlaces](#enlaces-anchors)
@@ -74,19 +76,6 @@ Espacio en un servidor web para guardar los archivos de un sitio web, normalment
 
 El Hyper Text Markup Language ( HTML ) es un lenguaje de marcado o etiquetado que sirve para estructurar la información dentro de una página web, mediante las etiquetas vamos a poder indicar si un texto es un título o un párrafo, si deseamos tener un listado de cierta información también se tiene una etiqueta para este fin.
 
-### Comentarios
-
-Antes de iniciar con los elementos básicos del lenguaje hay que aprender a colocar comentarios dentro de tu código para que te sirvan de recordatorios como notitas donde escribes un texto que te ayude a recordar algún concepto o para que utilizaste tal etiqueta, y además se utilizarán constantemente en los ejemplos.
-
-- Inicio de comentario: `<!--`
-- Fin de comentario: `-->`
-
-```html
-<!-- Esto es un comentario -->
-<!-- Esto es otro comentario 
-en dos o 
-más líneas -->
-```
 
 ### Estructura basica de todo documento HTML5
 
@@ -101,6 +90,35 @@ más líneas -->
 	</body>
 </html>
 ```
+### Comentarios
+
+Antes de iniciar con los elementos básicos del lenguaje hay que aprender a colocar comentarios dentro de tu código para que te sirvan de recordatorios como notitas donde escribes un texto que te ayude a recordar algún concepto o para que utilizaste tal etiqueta, y además se utilizarán constantemente en los ejemplos.
+
+- Inicio de comentario: `<!--`
+- Fin de comentario: `-->`
+
+```html
+<!-- Esto es un comentario -->
+<!-- Esto es otro comentario 
+en dos o 
+más líneas -->
+```
+
+### Elementos
+
+El lenguaje html está compuesto por elementos que van a ir dandole estructura a una página web. Estos elementos están compuestos generalmente por una etiqueta de apertura y una de cierre, y dependiendo de que trate el contenido se va a utilizar un determinado tipo de elemento.
+
+```html
+<p> <!-- etiqueta de apertura para un párrafo -->
+Esto es un párrafo.
+</p> <!-- etiqueta que indica el fin del párrafo -->
+
+<br> <!-- Elemento para indicar salto de línea, solo requiere la  etiqueta de apertura, a este tipo de elemento/etiqueta se le conoce como self-closing tag se puede traducir como etiqueta de cierre automático -->
+
+``` 
+
+### Atributos
+
 ### Elementos básicos
 
 #### Titulares (Headings)
