@@ -90,6 +90,11 @@ El Hyper Text Markup Language ( HTML ) es un lenguaje de marcado o etiquetado qu
 	</body>
 </html>
 ```
+
+**TIP:** Les comparto un video sobre este tema:
+
+[![Estructura Básica de un Documento HTML](http://img.youtube.com/vi/Lat2LyZM6Hs/0.jpg)](http://www.youtube.com/watch?v=Lat2LyZM6Hs "Estructura Básica de un Documento HTML")
+
 ### Comentarios
 
 Antes de iniciar con los elementos básicos del lenguaje hay que aprender a colocar comentarios dentro de tu código para que te sirvan de recordatorios como notitas donde escribes un texto que te ayude a recordar algún concepto o para que utilizaste tal etiqueta, y además se utilizarán constantemente en los ejemplos.
