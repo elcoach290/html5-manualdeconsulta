@@ -114,7 +114,8 @@ Esto es un párrafo.
 </p> <!-- etiqueta que indica el fin del párrafo -->
 
 <br> <!-- Elemento para indicar salto de línea, solo requiere la  etiqueta de apertura,
-a este tipo de elemento/etiqueta se le conoce como self-closing tag se puede traducir como etiqueta de cierre automático -->
+a este tipo de elemento/etiqueta se le conoce como self-closing tag se puede traducir 
+como etiqueta de cierre automático -->
 
 ``` 
 
