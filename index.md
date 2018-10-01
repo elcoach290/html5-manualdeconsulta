@@ -191,7 +191,7 @@ Podemos vincular imágenes de distintos tipos en nuestras páginas web usando el
 
 Requieren de dos atributos, **src** para indicar la ubicacion de la imagen y **alt** que es para indicar un texto alternativo en casos la imagen por algun motivo no se haya descargado, tambien sirve para la accesibilidad, muy importante para los usuarios invidentes. Recordemos que podemos cargar muchos formatos de imagen, como son JPG, PNG y GIF
 
-**TIP:** A las imágenes se les pueñe añadir el atributo **width** y dale un valor númerico para indicar su anchura en pixeles, pero se recomienda no usar imágenes muy grandes pues tu página web pesaría mucho, en ese caso se podría editar con Photoshop.
+**TIP:** A las imágenes se les puede añadir el atributo **width** y dale un valor númerico para indicar su anchura en pixeles, pero se recomienda no usar imágenes muy grandes pues tu página web pesaría mucho, en ese caso se podría editar con Photoshop.
 
 ```html
 <img src="images/foto.jpg" alt="Foto de Perfil" width="200">
@@ -199,11 +199,11 @@ Requieren de dos atributos, **src** para indicar la ubicacion de la imagen y **a
 
 #### Listas
 
-Las lista se utilizan cuando requieres mostras una secuencia de datos o elementos, pueden ser ordenadas o desordenadas.
+Las listas se utilizan cuando requieres mostrar una secuencia de datos o elementos, basicamente hay dos tipos de listas, ordenadas y desordenadas.
 
 ##### Listas ordenadas
 
-En ellas importa el orden de los elementos podrian ser los pasos para realizar un tramite.
+En ellas importa el orden de los elementos podrían ser los pasos para realizar un tramite.
 
 ```html
 <ol>
@@ -232,7 +232,7 @@ En ellas no es relevante el orden de los elementos y se pueden tener otras etiqu
 
 #### Tablas
 
-Es para mostras datos tabulares o datos extraido mediante alguna consulta a una base de datos, pudiendo ser estos registros, por ejemplo datos de los usuarios.
+Es para mostrar datos tabulares o datos extraidos mediante alguna consulta a una base de datos, por ejemplo datos de los usuarios.
 
 ```html
 <table>
@@ -293,7 +293,7 @@ Nos sirve para indicar que un texto o palabra es importante:
 
 ##### Span
 
-Esta etiqueta sirve para poder cambiar el formato a una palabra a caracter sin que esto afecte su significado, el cambio recien se hace visible aplicando estilos css
+Esta etiqueta sirve para poder cambiar el formato a una palabra o caracter sin que esto afecte su significado, el cambio recien se hace visible aplicando estilos css
 
 ```html
 <h2><span>Gatotel</span>, un lugar para quedarse.</h2>
@@ -340,7 +340,7 @@ Para envolver a la lista de enlaces de navegacion de un sitio web.
 
 ### Header
 
-Para envolver a los elementos de la cabecera de una página web o seccion, pudiendo ser estos el `<h1></h1>` y el `<nav></nav>`.
+Para envolver a los elementos de la cabecera de una página web o sección, pudiendo ser estos el `<h1></h1>` y el `<nav></nav>`.
 
 ```html
 <header>
@@ -375,7 +375,7 @@ Dentro del elemento **main** irá todo el contenido principal de la página web.
 
 ### Footer
 
-Representa al pie de la página o sección, normalmente van datos de contacto, enlaces a otras páginas de navegacion o enlaces a las redes sociales.
+Representa al pie de la página o sección, normalmente van datos de contacto, enlaces a otras páginas de navegación o enlaces a las redes sociales.
 
 ```html
 <footer>
@@ -388,7 +388,7 @@ Representa al pie de la página o sección, normalmente van datos de contacto, e
 
 ### Article
 
-Se usa envolver a una composición de elementos con datos que hacen referencia a una idea o información autonónoma. Un uso común puede ser como entrada de blog, noticia de periódico, ficha técnica de algún producto, etc. Debe tener como mínimo un título y párrafos.
+Se usa envolver a una composición de elementos con datos que hacen referencia a una idea o información autónoma. Un uso común puede ser como entrada de blog, noticia de periódico, ficha técnica de algún producto, etc. Debe tener como mínimo un título y párrafos.
 
 ```html
 <article>
@@ -477,12 +477,12 @@ De esta forma podríamos incluir un audio o sonido dentro de nuestro sitio web
 ```html
 <video src="audios/sound.mp4" controls></video>
 ```
-El atributo src es para indicar la ubicación del archivo de audio mientras el atributo controls permite mostrar los controles de reproducción, si se desea iniciar automaticamente se le puede añadir el atributo autoplay.
+El atributo src es para indicar la ubicación del archivo de audio mientras el atributo controls permite mostrar los controles de reproducción, si se desea iniciar automáticamente se le puede añadir el atributo autoplay.
 
 ## Elementos de formulario
 
 ### Form
-Este el elemento es el que va envolvera o agrupar todos los campos del formulario, es el formulario en sí.
+Este  elemento sirve para envolver a o agrupar todos los campos del formulario, es el formulario en sí.
 
 ```html
 <form action="process.php" method="POST">
@@ -512,7 +512,7 @@ Son los campos de entrada de datos, existen varios tipos entre ellos tenemos: te
 <!-- Este campo es para ingreso de correos electrónicos -->
 <input type="email">
 <!-- Este tipo de campo para cuando tenemos varias alternativas 
-a selecionar pero solo una podemos marcar -->
+a seleccionar pero solo una podemos marcar -->
 <input type="radio">
 <!-- Este tipo de campo para cuando tenemos que marcar una o varias alternativas de un conjunto de opciones -->
 <input type="checkbox">
@@ -591,14 +591,14 @@ mediante el nombre del color en inglés, por ejemplo para el color negro podemos
 para el color rosado, la palabra **pink**, etc. 
 También se puede usar el formato hexadecimal siendo **#ff0000** para el color rojo,  **#000000** para el color negro. 
 El formato rgba que permite añadir un canal alfa que controla el nivel de transparencia,
- **rgba(0,0,0,0.5)** sería para un color negro semi transparente, a un nivel de transparencia del cincuenta porciento.
+ **rgba(0,0,0,0.5)** sería para un color negro semi transparente, a un nivel de transparencia del cincuenta por ciento.
 
  ```css
  .title{
 	color: orange; /* aplicamos color naranja al texto */
 	border-bottom: solid 5px #ff9900; /* aplicamos un borde inferior de color naranja */
 	background-color: rgba(0,0,0,0.8); /* aplicamos color negro
-	con ochenta porciento de opacidad al fondo */
+	con ochenta por ciento de opacidad al fondo */
 }
  ```
 
@@ -772,7 +772,7 @@ Es la distancia de la caja hacia afuera del contenedor.
 	margin-right: 5px; /* distancia hacia el lado derecho */
 	margin-left: 5px; /* distancia hacia el lado izquierdo */
 	margin-top: 5px; /* distancia hacia arriba */
-	margin-botton: 5px; /* distancia hacia abajo */
+	margin-bottom: 5px; /* distancia hacia abajo */
 }
 ```
 
@@ -931,7 +931,7 @@ body{
 }
 ```
 **TIP:** si se le asigna el valor **cover** la imagen cubrirá todo el area disponible, 
-muy util para cuando queremos que se adapte a diferentest tamaños de pantalla o dispositivo.
+muy util para cuando queremos que se adapte a diferentes tamaños de pantalla o dispositivo.
 
 #### Background-attachment
 
