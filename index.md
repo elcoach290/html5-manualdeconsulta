@@ -126,6 +126,21 @@ como etiqueta de cierre automático -->
 
 ### Atributos
 
+Los atributos son datos adicionales que llevan los elementos en la etiqueta de apertura; los elementos pueden tener más de un atributo mas no tener atributos repetidos. Los elementos **img** necesitan dos atributos a los que se les asigna un valor según corresponda; al atributo **src** se le asigna la ruta del archivo de imagen y al atributo **alt** se le asigna una descripción corta de la imagen:
+
+```html
+<html lang="es">
+<!-- el elemento html requiere el atributo lang en el cual
+se asigna el idioma del documento en este caso es
+de español -->
+
+<img src="images/logo.png" alt="Vía Código">
+
+<a href="index.html">Ir a Página de Inicio</a>
+<!-- los enlaces necesitan el atributo href para indicar
+la ruta del archivo destino al que te va llevar -->
+```
+
 ### Elementos básicos
 
 #### Titulares (Headings)
@@ -229,6 +244,10 @@ En ellas no es relevante el orden de los elementos y se pueden tener otras etiqu
 	<li><a href="contacto.html">Contacto</a></li>
 </ul>
 ```
+
+**TIP:** Les comparto un video sobre los elementos básicos:
+
+
 
 #### Tablas
 
