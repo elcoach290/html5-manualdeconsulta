@@ -247,6 +247,7 @@ En ellas no es relevante el orden de los elementos y se pueden tener otras etiqu
 
 **TIP:** Les comparto un video sobre los elementos básicos:
 
+[![Video de Elementos Básicos del HTML](http://img.youtube.com/vi/_N9SEy-OLXw/0.jpg)](http://www.youtube.com/watch?v=_N9SEy-OLXw "Elementos Básicos del HTML")
 
 
 #### Tablas
