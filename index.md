@@ -41,6 +41,7 @@
 	- [Estilos de Texto](#propiedades_de_texto)
 	- [Estilos de lista](#estilos-de-lista)
 	- [Modelo de Caja](#modelo-de-caja)
+	- [Esquinas Redondeadas](#esquinas-redondeadas)
 	- [Propiedades Flexbox](#propiedades-flexbox)
 	- [Imágenes de fondo](#imágenes-de-fondo)
 	- [Transiciones](#transiciones)
@@ -833,6 +834,29 @@ Trazo o línea de contorno, podrías usar las propiedades:
 ```css
 .box{
 	box-sizing: border-box;
+}
+```
+
+### Esquinas Redondeadas
+
+Para redondear las esquinas de las cajas o bloques tenemos la propiedad **border-radius** la cual acepta valores en pixeles y porcentaje, también se pueden usar otras unidades de medidas pero esas son las más usadas.
+
+```css
+.section{
+	border-radius: 20px; /* redondea todas las esquinas con
+	un radio de 20 pixeles*/
+}
+
+.button{
+	border-top-left-radius: 10px; /* redondea solo la esquina
+	superior izquierda */
+}
+
+.picture{
+	border-radius: 10px 0 20px 40px; /* redondeo de esquinas en
+	el siguiente orden: superior izquierda 10px,
+	superior derecha esquina recta, inferior derecha 20px e 
+	inferior izquierda 40px */
 }
 ```
 
