@@ -860,6 +860,19 @@ Para redondear las esquinas de las cajas o bloques tenemos la propiedad **border
 }
 ```
 
+**TIP:** Si deseas lograr un circulo  prueba lo siguiente:
+
+```css
+.circle{
+	width: 80px; 
+	height: 80px; /* mismo alto que ancho */
+	border-radius: 50%; /* el redondeo será la mitad de su altura y anchura en este caso 40px */
+	background-color: red; /* asignamos un color de fondo para poder
+	verlo */
+}
+```
+
+
 ### Propiedades flexbox
 
 #### Display
