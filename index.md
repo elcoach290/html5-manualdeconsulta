@@ -1,4 +1,4 @@
-# Manual del Guerrero HTML5
+# Manual de Consulta ( HTML Y CSS )
 
 ## Indice
 
@@ -30,6 +30,7 @@
 		- [Footer](#footer)
 		- [Article](#article)
 		- [Section](#section)
+		- [Aside](#aside)
 		- [Figure](#figure)
 	- [El elemento agrupador DIV](#el-elemento-agrupador-div)
 	- [Elementos Multimedia](#elementos-multimedia)
@@ -44,6 +45,7 @@
 	- [Esquinas Redondeadas](#esquinas-redondeadas)
 	- [Propiedades Flexbox](#propiedades-flexbox)
 	- [Imágenes de fondo](#imágenes-de-fondo)
+	- [Media queries](#media-queries)
 	- [Transiciones](#transiciones)
 	- [Animaciones](#animaciones)
 
@@ -437,6 +439,22 @@ Se usa para envolver información que habla sobre un tema en particular o un are
 	</article>
 	...
 </section>
+```
+
+### Aside
+
+Se usa para agrupar contenido complementario o de relevancia baja, normalmente se usa este elemento para la barra lateral que aparece a la derecha donde se colocan enlaces que dirigen a otras páginas, también pueden ir los banners publicitarios.
+
+```html
+<aside>
+	<h2>También te puede intersar</h2>
+	<ul>
+		<li><a href="#">Enlace 1</a></li>
+		<li><a href="#">Enlace 2</a></li>
+		<li><a href="#">Enlace 3</a></li>
+		<li><a href="#">Enlace 4</a></li>
+	</ul>
+</aside>
 ```
 
 ### Figure
