@@ -35,6 +35,7 @@
 	- [El elemento agrupador DIV](#el-elemento-agrupador-div)
 	- [Elementos Multimedia](#elementos-multimedia)
 	- [Elementos de formulario](#elementos-de-formulario)
+	- [Elementos Obsoletos](#elementos-obsoletos)
 
 - [Estilos CSS](#estilos-css)
 	- [Vinculando una hoja de estilos](#vinculando-una-hoja-de-estilos)
@@ -593,7 +594,11 @@ Este elemento nos va servir básicamente para poder envíar el formulario aunque
 ```html
 <input type="email" placeholder="anthony@prodesigner.com" required>
 ``` 
+## Elementos Obsoletos
 
+Como su nombre lo indica son aquellos compuestos por etiquetas  que ya no son útiles y se recomienda **no usarlos**, entre estos elementos quiero resaltar principalmente el elemento <center></center>, que algunos usan para centrar textos e imágenes, el centrado debe hacerse por estilos css y no usando esta etiqueta.
+
+Otro elmeneto obsoleto es el <b></b> que algunos usan para dar negrita a los textos, esto debería hacerse mediante estilos css.
 
 ## Estilos CSS
 
